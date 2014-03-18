@@ -6,7 +6,7 @@ These are QML files for OS VectorMap District in GML format for use in QGIS.
 
 ## Quick start guide
 
-**1.**  Fork or [download](link here) the contents of this repository
+**1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/archive/master.zip) the contents of this repository
 
 **2.**  Copy the font file 'OS_VMDistrict.otf' into your systems font directory (on Windows machines this is (C:\Windows\Fonts)
 
