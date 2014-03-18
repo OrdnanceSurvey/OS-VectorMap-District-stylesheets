@@ -20,13 +20,13 @@ These are QML files for OS VectorMap District in ESRI Shapefile format for use i
 
 **5.**  Although every feature is styled, for use as a contextual map we recommend the following layer order and visibility:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/Full&20Colour%20style/images/VMD_layer_order.PNG "Recommended layer order for OS VectorMap District")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/Full%20Colour%20style/images/VMD_layer_order.PNG "Recommended layer order for OS VectorMap District")
 
 We recommend viewing the map between **1:10,000** and **1:25,000** for maximum legibility
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/Full&20Colour%20style/images/VMD_FC_screenshot.PNG "Screenshot of OS VectorMap District at 1:17,500")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/QGIS%20stylesheets%20(QML)/Full%20Colour%20style/images/VMD_FC_screenshot.PNG "Screenshot of OS VectorMap District at 1:17,500")
 
 ## Additional information
 
