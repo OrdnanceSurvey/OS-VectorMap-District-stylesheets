@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 symbollevels="0" type="singleSymbol">
     <symbols>
       <symbol alpha="1" type="marker" name="0">
@@ -8,25 +8,29 @@
           <prop k="chr" v="&amp;"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="font" v="OS VectorMap District"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="120"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
         <layer pass="0" class="FontMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="chr" v="a"/>
           <prop k="color" v="73,81,199,255"/>
           <prop k="font" v="OS VectorMap District"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="120"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
     </symbols>
-    <rotation field=""/>
-    <sizescale field="" scalemethod="area"/>
+    <rotation/>
+    <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
     <property key="labeling" value="pal"/>
@@ -86,7 +90,7 @@
     <property key="labeling/plussign" value="false"/>
     <property key="labeling/preserveRotation" value="true"/>
     <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-    <property key="labeling/priority" value="6"/>
+    <property key="labeling/priority" value="10"/>
     <property key="labeling/quadOffset" value="5"/>
     <property key="labeling/reverseDirectionSymbol" value="false"/>
     <property key="labeling/rightDirectionSymbol" value=">"/>
@@ -172,13 +176,16 @@
     <selectedonly on=""/>
   </labelattributes>
   <edittypes>
+    <edittype labelontop="0" editable="1" type="0" name="FEATCODE"/>
+    <edittype labelontop="0" editable="1" type="0" name="NAME"/>
     <edittype labelontop="0" editable="1" type="0" name="featureCode"/>
     <edittype labelontop="0" editable="1" type="0" name="gml_id"/>
     <edittype labelontop="0" editable="1" type="0" name="name"/>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
-  <annotationform></annotationform>
+  <featformsuppress>0</featformsuppress>
+  <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>

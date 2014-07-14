@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="0" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 attr="classification" symbollevels="0" type="categorizedSymbol">
     <categories>
       <category symbol="0" value="County Or Region Or Island" label="County Or Region Or Island"/>
@@ -14,6 +14,7 @@
           <prop k="color" v="87,87,87,255"/>
           <prop k="customdash" v="75;40"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -29,6 +30,7 @@
           <prop k="color" v="117,117,117,255"/>
           <prop k="customdash" v="55;22"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -44,6 +46,7 @@
           <prop k="color" v="87,87,87,255"/>
           <prop k="customdash" v="100;40"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -59,6 +62,7 @@
           <prop k="color" v="117,117,117,255"/>
           <prop k="customdash" v="2;25"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -76,6 +80,7 @@
           <prop k="color" v="133,247,179,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MM"/>
@@ -91,8 +96,9 @@
       <prop k="color2" v="207,205,255,255"/>
       <prop k="discrete" v="0"/>
     </colorramp>
-    <rotation field=""/>
-    <sizescale field="" scalemethod="area"/>
+    <invertedcolorramp value="0"/>
+    <rotation/>
+    <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
     <property key="labeling" value="pal"/>
@@ -239,13 +245,15 @@
   </labelattributes>
   <edittypes>
     <edittype labelontop="0" editable="1" type="0" name="CLASSIFICA"/>
+    <edittype labelontop="0" editable="1" type="0" name="FEATCODE"/>
     <edittype labelontop="0" editable="1" type="0" name="ID"/>
     <edittype labelontop="0" editable="1" type="0" name="classification"/>
     <edittype labelontop="0" editable="1" type="0" name="featureCode"/>
     <edittype labelontop="0" editable="1" type="0" name="gml_id"/>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
+  <featformsuppress>0</featformsuppress>
   <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>

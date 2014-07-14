@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="0" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 attr="classification" symbollevels="1" type="categorizedSymbol">
     <categories>
       <category symbol="0" value="A Road" label="A Road"/>
@@ -23,25 +23,27 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="17"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="4" class="SimpleLine" locked="0">
+        <layer pass="6" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="255,187,210,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="12"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -51,25 +53,27 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="17"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="3" class="SimpleLine" locked="0">
+        <layer pass="5" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="253,211,177,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="12"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -79,32 +83,35 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="26"/>
+          <prop k="width" v="26.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="2" class="SimpleLine" locked="0">
+        <layer pass="8" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="255,244,225,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="21"/>
+          <prop k="width" v="21.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="7" class="SimpleLine" locked="0">
+        <layer pass="13" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -120,32 +127,35 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="29"/>
+          <prop k="width" v="28"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="6" class="SimpleLine" locked="0">
+        <layer pass="12" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="99,200,221,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="24"/>
+          <prop k="width" v="23"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="7" class="SimpleLine" locked="0">
+        <layer pass="17" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -161,32 +171,35 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="27"/>
+          <prop k="width" v="26.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="5" class="SimpleLine" locked="0">
+        <layer pass="11" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="163,210,163,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="22"/>
+          <prop k="width" v="21.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="7" class="SimpleLine" locked="0">
+        <layer pass="16" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -202,12 +215,13 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="16"/>
+          <prop k="width" v="18.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="1" class="SimpleLine" locked="0">
@@ -215,12 +229,13 @@
           <prop k="color" v="252,252,252,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="11"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -230,25 +245,27 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="17"/>
+          <prop k="width" v="18.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="2" class="SimpleLine" locked="0">
+        <layer pass="4" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="255,244,225,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="12"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -258,25 +275,27 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="18"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="6" class="SimpleLine" locked="0">
+        <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="99,200,221,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="13"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -286,25 +305,27 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="16"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="1" class="SimpleLine" locked="0">
+        <layer pass="2" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="238,238,238,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="11"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -314,25 +335,27 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="17"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="5" class="SimpleLine" locked="0">
+        <layer pass="7" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="163,210,163,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="12"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -342,12 +365,13 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="16"/>
+          <prop k="width" v="18.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="1" class="SimpleLine" locked="0">
@@ -355,12 +379,13 @@
           <prop k="color" v="255,255,255,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="11"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -370,32 +395,35 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="27"/>
+          <prop k="width" v="26.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="4" class="SimpleLine" locked="0">
+        <layer pass="10" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="255,187,210,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="22"/>
+          <prop k="width" v="21.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="7" class="SimpleLine" locked="0">
+        <layer pass="15" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -411,32 +439,35 @@
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="26"/>
+          <prop k="width" v="26.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="3" class="SimpleLine" locked="0">
+        <layer pass="9" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="253,211,177,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="21"/>
+          <prop k="width" v="21.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
-        <layer pass="7" class="SimpleLine" locked="0">
+        <layer pass="14" class="SimpleLine" locked="0">
           <prop k="capstyle" v="round"/>
           <prop k="color" v="150,150,150,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -454,6 +485,7 @@
           <prop k="color" v="11,198,8,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MM"/>
@@ -469,8 +501,9 @@
       <prop k="color2" v="207,205,255,255"/>
       <prop k="discrete" v="0"/>
     </colorramp>
-    <rotation field=""/>
-    <sizescale field="" scalemethod="area"/>
+    <invertedcolorramp value="0"/>
+    <rotation/>
+    <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
     <property key="labeling" value="pal"/>
@@ -479,8 +512,8 @@
     <property key="labeling/blendMode" value="0"/>
     <property key="labeling/bufferBlendMode" value="0"/>
     <property key="labeling/bufferColorA" value="255"/>
-    <property key="labeling/bufferColorB" value="255"/>
-    <property key="labeling/bufferColorG" value="255"/>
+    <property key="labeling/bufferColorB" value="252"/>
+    <property key="labeling/bufferColorG" value="254"/>
     <property key="labeling/bufferColorR" value="255"/>
     <property key="labeling/bufferDraw" value="true"/>
     <property key="labeling/bufferJoinStyle" value="128"/>
@@ -489,16 +522,16 @@
     <property key="labeling/bufferSizeInMapUnits" value="true"/>
     <property key="labeling/bufferTransp" value="30"/>
     <property key="labeling/centroidWhole" value="false"/>
-    <property key="labeling/dataDefined/BufferSize" value="1~~1~~CASE WHEN &quot;classification&quot; =  'Local Street' OR &quot;classification&quot; =   'Minor Road' OR &quot;classification&quot; =   'Minor Road, Collapsed Dual Carriageway'  OR &quot;classification&quot; =   'Pedestrianised Street' OR &quot;classification&quot; =  'Private Road Publicly Accessible'   THEN  '14'  ELSE  '20' END~~"/>
-    <property key="labeling/dataDefined/Color" value="1~~1~~CASE WHEN &quot;classification&quot; =  'Local Street' OR &quot;classification&quot; =   'Minor Road' OR &quot;classification&quot; =   'Minor Road, Collapsed Dual Carriageway'  OR &quot;classification&quot; =   'Pedestrianised Street' OR &quot;classification&quot; =  'Private Road Publicly Accessible' THEN color_rgb( 113, 113, 113) WHEN &quot;classification&quot; =   'B Road' OR &quot;classification&quot; =    'B Road, Collapsed Dual Carriageway' THEN color_rgb( 212, 158, 114) WHEN &quot;classification&quot; =   'A Road' OR &quot;classification&quot; =    'A Road, Collapsed Dual Carriageway' THEN color_rgb( 212, 106, 141) WHEN &quot;classification&quot; =   'Primary Road' OR &quot;classification&quot; =    'Primary Road, Collapsed Dual Carriageway' THEN color_rgb( 120, 179, 127) WHEN &quot;classification&quot; =    'Motorway'  OR &quot;classification&quot; =     'Motorway, Collapsed Dual Carriageway'  THEN color_rgb( 54, 177, 201)END~~"/>
-    <property key="labeling/dataDefined/FontStyle" value="1~~1~~CASE WHEN &quot;classification&quot; =  'Local Street' OR &quot;classification&quot; =   'Minor Road' OR &quot;classification&quot; =   'Minor Road, Collapsed Dual Carriageway'  OR &quot;classification&quot; =   'Pedestrianised Street' OR &quot;classification&quot; =  'Private Road Publicly Accessible'   THEN  'Normal'  ELSE  'Bold' END~~"/>
-    <property key="labeling/dataDefined/Size" value="1~~1~~CASE WHEN &quot;classification&quot; =  'Local Street' OR &quot;classification&quot; =   'Minor Road' OR &quot;classification&quot; =   'Minor Road, Collapsed Dual Carriageway'  OR &quot;classification&quot; =   'Pedestrianised Street' OR &quot;classification&quot; =  'Private Road Publicly Accessible'   THEN  '45'  ELSE  '50' END~~"/>
+    <property key="labeling/dataDefined/BufferSize" value="1~~1~~CASE WHEN  &quot;classification&quot;  =  'Local Street' OR  &quot;classification&quot;  =   'Minor Road' OR  &quot;classification&quot;  =   'Minor Road, Collapsed Dual Carriageway'  OR  &quot;classification&quot;  =   'Pedestrianised Street' OR  &quot;classification&quot;  =  'Private Road Publicly Accessible'   THEN  '14'  ELSE  '20' END~~"/>
+    <property key="labeling/dataDefined/Color" value="1~~1~~CASE WHEN &quot;classification&quot; =  'Local Street' OR &quot;classification&quot; =  'Minor Road' OR &quot;classification&quot; =  'Minor Road, Collapsed Dual Carriageway'  OR &quot;classification&quot; =   'Pedestrianised Street' OR &quot;classification&quot; =  'Private Road Publicly Accessible' THEN color_rgb( 113, 113, 113) WHEN &quot;classification&quot; =  'B Road' OR &quot;classification&quot; =  'B Road, Collapsed Dual Carriageway' THEN color_rgb( 212, 158, 114) WHEN &quot;classification&quot; =  'A Road' OR &quot;classification&quot; =  'A Road, Collapsed Dual Carriageway' THEN color_rgb( 212, 106, 141) WHEN &quot;classification&quot; =   'Primary Road' OR &quot;classification&quot; =    'Primary Road, Collapsed Dual Carriageway' THEN color_rgb( 120, 179, 127) WHEN &quot;classification&quot; =  'Motorway'  OR &quot;classification&quot; =  'Motorway, Collapsed Dual Carriageway'  THEN color_rgb( 54, 177, 201) END~~"/>
+    <property key="labeling/dataDefined/FontStyle" value="1~~1~~CASE WHEN  &quot;classification&quot;  =  'Local Street' OR  &quot;classification&quot;  =   'Minor Road' OR  &quot;classification&quot;  =   'Minor Road, Collapsed Dual Carriageway'  OR  &quot;classification&quot;  =   'Pedestrianised Street' OR  &quot;classification&quot; =  'Private Road Publicly Accessible'   THEN  'Normal'  ELSE  'Bold' END~~"/>
+    <property key="labeling/dataDefined/Size" value="1~~1~~CASE WHEN  &quot;classification&quot;  =  'Local Street' OR  &quot;classification&quot;  =  'Minor Road' OR  &quot;classification&quot;  =   'Minor Road, Collapsed Dual Carriageway'  OR  &quot;classification&quot;  =  'Pedestrianised Street' OR  &quot;classification&quot;  =  'Private Road Publicly Accessible'   THEN  '45'  ELSE  '50' END~~"/>
     <property key="labeling/decimals" value="3"/>
     <property key="labeling/displayAll" value="false"/>
     <property key="labeling/dist" value="0"/>
     <property key="labeling/distInMapUnits" value="false"/>
     <property key="labeling/enabled" value="true"/>
-    <property key="labeling/fieldName" value="CASE WHEN &quot;classification&quot; =  'Local Street' OR &quot;classification&quot; =   'Minor Road' OR &quot;classification&quot; =   'Minor Road, Collapsed Dual Carriageway'  OR &quot;classification&quot; =   'Pedestrianised Street' OR &quot;classification&quot; =  'Private Road Publicly Accessible'   THEN  name  ELSE  dftNumber END"/>
+    <property key="labeling/fieldName" value="CASE WHEN  &quot;classification&quot;  =  'Local Street' OR  &quot;classification&quot;  =  'Minor Road' OR  &quot;classification&quot;  =  'Minor Road, Collapsed Dual Carriageway'  OR  &quot;classification&quot;  =  'Pedestrianised Street' OR  &quot;classification&quot;  =  'Private Road Publicly Accessible'   THEN   &quot;name&quot;   WHEN  &quot;classification&quot;  =  'Motorway' AND  $length  &lt; 1000  THEN '' WHEN  &quot;classification&quot;  =  'Motorway' AND  $length   >= 1000  THEN  &quot;dftNumber&quot;  ELSE coalesce( &quot;dftNumber&quot;,'') || '  '  || coalesce( &quot;name&quot; ,'') END"/>
     <property key="labeling/fontBold" value="false"/>
     <property key="labeling/fontCapitals" value="0"/>
     <property key="labeling/fontFamily" value="Arial"/>
@@ -622,6 +655,7 @@
   <edittypes>
     <edittype labelontop="0" editable="1" type="0" name="CLASSIFICA"/>
     <edittype labelontop="0" editable="1" type="0" name="DFTNUMBER"/>
+    <edittype labelontop="0" editable="1" type="0" name="FEATCODE"/>
     <edittype labelontop="0" editable="1" type="0" name="ID"/>
     <edittype labelontop="0" editable="1" type="0" name="NAME"/>
     <edittype labelontop="0" editable="1" type="0" name="classification"/>
@@ -630,8 +664,9 @@
     <edittype labelontop="0" editable="1" type="0" name="gml_id"/>
     <edittype labelontop="0" editable="1" type="0" name="name"/>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
+  <featformsuppress>0</featformsuppress>
   <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>

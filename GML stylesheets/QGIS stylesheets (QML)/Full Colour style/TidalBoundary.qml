@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="0" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 attr="classification" symbollevels="0" type="categorizedSymbol">
     <categories>
       <category symbol="0" value="High Water Mark" label="High Water Mark"/>
@@ -12,6 +12,7 @@
           <prop k="color" v="0,169,202,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -27,6 +28,7 @@
           <prop k="color" v="0,169,202,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -44,6 +46,7 @@
           <prop k="color" v="107,166,180,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MM"/>
@@ -60,8 +63,9 @@
       <prop k="discrete" v="0"/>
       <prop k="stops" v="0.13;222,235,247,255:0.26;198,219,239,255:0.39;158,202,225,255:0.52;107,174,214,255:0.65;66,146,198,255:0.78;33,113,181,255:0.9;8,81,156,255"/>
     </colorramp>
-    <rotation field=""/>
-    <sizescale field="" scalemethod="area"/>
+    <invertedcolorramp value="0"/>
+    <rotation/>
+    <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
     <property key="labeling" value="pal"/>
@@ -207,13 +211,16 @@
     <selectedonly on=""/>
   </labelattributes>
   <edittypes>
+    <edittype labelontop="0" editable="1" type="0" name="CLASSIFICA"/>
+    <edittype labelontop="0" editable="1" type="0" name="FEATCODE"/>
     <edittype labelontop="0" editable="1" type="0" name="ID"/>
     <edittype labelontop="0" editable="1" type="0" name="classification"/>
     <edittype labelontop="0" editable="1" type="0" name="featureCode"/>
     <edittype labelontop="0" editable="1" type="0" name="gml_id"/>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
+  <featformsuppress>0</featformsuppress>
   <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>

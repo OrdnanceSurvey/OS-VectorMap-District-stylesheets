@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="0" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 attr="CLASSIFICA" symbollevels="1" type="categorizedSymbol">
     <categories>
       <category symbol="0" value="A Road" label="A Road"/>
@@ -23,12 +23,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="17"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="4" class="SimpleLine" locked="0">
@@ -36,12 +37,13 @@
           <prop k="color" v="255,135,158,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="12"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -51,12 +53,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="17"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="3" class="SimpleLine" locked="0">
@@ -64,12 +67,13 @@
           <prop k="color" v="255,192,115,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="12"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -79,12 +83,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="26"/>
+          <prop k="width" v="26.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="2" class="SimpleLine" locked="0">
@@ -92,12 +97,13 @@
           <prop k="color" v="255,243,181,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="21"/>
+          <prop k="width" v="21.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="7" class="SimpleLine" locked="0">
@@ -105,6 +111,7 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -120,12 +127,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="29"/>
+          <prop k="width" v="28"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="6" class="SimpleLine" locked="0">
@@ -133,12 +141,13 @@
           <prop k="color" v="6,177,202,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="24"/>
+          <prop k="width" v="23"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="7" class="SimpleLine" locked="0">
@@ -146,6 +155,7 @@
           <prop k="color" v="255,255,255,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -161,12 +171,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="27"/>
+          <prop k="width" v="26.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="5" class="SimpleLine" locked="0">
@@ -174,12 +185,13 @@
           <prop k="color" v="55,195,91,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="22"/>
+          <prop k="width" v="21.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="7" class="SimpleLine" locked="0">
@@ -187,6 +199,7 @@
           <prop k="color" v="255,255,255,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -202,12 +215,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="16"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="1" class="SimpleLine" locked="0">
@@ -215,12 +229,13 @@
           <prop k="color" v="254,254,254,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="11"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -230,12 +245,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="17"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="2" class="SimpleLine" locked="0">
@@ -243,12 +259,13 @@
           <prop k="color" v="255,243,181,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="12"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -258,12 +275,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="18"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="6" class="SimpleLine" locked="0">
@@ -271,12 +289,13 @@
           <prop k="color" v="6,177,202,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="13"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -286,12 +305,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="16"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="1" class="SimpleLine" locked="0">
@@ -299,12 +319,13 @@
           <prop k="color" v="234,234,234,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="11"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -314,12 +335,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="17"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="5" class="SimpleLine" locked="0">
@@ -327,12 +349,13 @@
           <prop k="color" v="55,195,91,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="12"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -342,12 +365,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="16"/>
+          <prop k="width" v="16.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="1" class="SimpleLine" locked="0">
@@ -355,12 +379,13 @@
           <prop k="color" v="255,255,255,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="11"/>
+          <prop k="width" v="13.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -370,12 +395,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="27"/>
+          <prop k="width" v="26.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="4" class="SimpleLine" locked="0">
@@ -383,12 +409,13 @@
           <prop k="color" v="255,135,158,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="22"/>
+          <prop k="width" v="21.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="7" class="SimpleLine" locked="0">
@@ -396,6 +423,7 @@
           <prop k="color" v="255,255,255,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -411,12 +439,13 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="26"/>
+          <prop k="width" v="26.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="3" class="SimpleLine" locked="0">
@@ -424,12 +453,13 @@
           <prop k="color" v="255,192,115,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="21"/>
+          <prop k="width" v="21.5"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
         <layer pass="7" class="SimpleLine" locked="0">
@@ -437,6 +467,7 @@
           <prop k="color" v="80,80,80,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -454,6 +485,7 @@
           <prop k="color" v="11,198,8,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MM"/>
@@ -469,8 +501,9 @@
       <prop k="color2" v="207,205,255,255"/>
       <prop k="discrete" v="0"/>
     </colorramp>
-    <rotation field=""/>
-    <sizescale field="" scalemethod="area"/>
+    <invertedcolorramp value="0"/>
+    <rotation/>
+    <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
     <property key="labeling" value="pal"/>
@@ -631,8 +664,9 @@
     <edittype labelontop="0" editable="1" type="0" name="gml_id"/>
     <edittype labelontop="0" editable="1" type="0" name="name"/>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
+  <featformsuppress>0</featformsuppress>
   <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>

@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="0" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 attr="CLASSIFICA" symbollevels="1" type="categorizedSymbol">
     <categories>
       <category symbol="0" value="Multi Track" label="Multi Track"/>
@@ -13,6 +13,7 @@
           <prop k="color" v="145,145,145,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -28,12 +29,27 @@
           <prop k="color" v="145,145,145,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
           <prop k="width" v="3"/>
+          <prop k="width_unit" v="MapUnit"/>
+        </layer>
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="flat"/>
+          <prop k="color" v="145,145,145,255"/>
+          <prop k="customdash" v="3;72"/>
+          <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="penstyle" v="solid"/>
+          <prop k="use_custom_dash" v="1"/>
+          <prop k="width" v="27"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
@@ -43,6 +59,7 @@
           <prop k="color" v="145,145,145,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MapUnit"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MapUnit"/>
@@ -60,6 +77,7 @@
           <prop k="color" v="147,182,70,255"/>
           <prop k="customdash" v="5;2"/>
           <prop k="customdash_unit" v="MM"/>
+          <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MM"/>
@@ -75,8 +93,9 @@
       <prop k="color2" v="207,205,255,255"/>
       <prop k="discrete" v="0"/>
     </colorramp>
-    <rotation field=""/>
-    <sizescale field="" scalemethod="area"/>
+    <invertedcolorramp value="0"/>
+    <rotation/>
+    <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
     <property key="labeling" value="pal"/>
@@ -229,8 +248,9 @@
     <edittype labelontop="0" editable="1" type="0" name="featureCode"/>
     <edittype labelontop="0" editable="1" type="0" name="gml_id"/>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
+  <featformsuppress>0</featformsuppress>
   <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>

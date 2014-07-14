@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="-4.65661e-10" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 attr="classification" symbollevels="0" type="categorizedSymbol">
     <categories>
       <category symbol="0" value="Railway Station" label="Railway Station"/>
@@ -15,14 +15,17 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="235,108,177,255"/>
           <prop k="color_border" v="145,145,145,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="5"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="40"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="1">
@@ -30,14 +33,17 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="253,238,85,255"/>
           <prop k="color_border" v="145,145,145,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="5"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="40"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="2">
@@ -46,33 +52,40 @@
           <prop k="chr" v="L"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="font" v="OS VectorMap District"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="offset" v="39,-7"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="60"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
         <layer pass="0" class="FontMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="chr" v="t"/>
           <prop k="color" v="235,108,177,255"/>
           <prop k="font" v="OS VectorMap District"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="offset" v="39,-7"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="70"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="253,238,85,255"/>
           <prop k="color_border" v="145,145,145,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="-27,0"/>
           <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="5"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="40"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="3">
@@ -80,27 +93,33 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="253,238,85,255"/>
           <prop k="color_border" v="145,145,145,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="27,0"/>
           <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="5"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="40"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="235,108,177,255"/>
           <prop k="color_border" v="145,145,145,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="-27,0"/>
           <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="5"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="40"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="4">
@@ -109,20 +128,24 @@
           <prop k="chr" v="L"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="font" v="OS VectorMap District"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="size" v="60"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
         <layer pass="0" class="FontMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="chr" v="t"/>
           <prop k="color" v="235,108,177,255"/>
           <prop k="font" v="OS VectorMap District"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="size" v="70"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="marker" name="5">
@@ -131,33 +154,40 @@
           <prop k="chr" v="L"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="font" v="OS VectorMap District"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="offset" v="39,-7"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="60"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
         <layer pass="0" class="FontMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="chr" v="t"/>
           <prop k="color" v="235,108,177,255"/>
           <prop k="font" v="OS VectorMap District"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="offset" v="39,-7"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="70"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
           <prop k="color" v="235,108,177,255"/>
           <prop k="color_border" v="145,145,145,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="-27,0"/>
           <prop k="offset_unit" v="MapUnit"/>
+          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="5"/>
           <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="40"/>
           <prop k="size_unit" v="MapUnit"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
     </symbols>
@@ -167,14 +197,17 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="39,113,166,255"/>
           <prop k="color_border" v="0,0,0,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="2"/>
           <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
     </source-symbol>
@@ -183,8 +216,9 @@
       <prop k="color2" v="207,205,255,255"/>
       <prop k="discrete" v="0"/>
     </colorramp>
-    <rotation field=""/>
-    <sizescale field="" scalemethod="area"/>
+    <invertedcolorramp value="0"/>
+    <rotation/>
+    <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
     <property key="labeling" value="pal"/>
@@ -203,7 +237,7 @@
     <property key="labeling/bufferSizeInMapUnits" value="true"/>
     <property key="labeling/bufferTransp" value="25"/>
     <property key="labeling/centroidWhole" value="false"/>
-    <property key="labeling/dataDefined/OffsetXY" value="1~~1~~CASE WHEN  &quot;classification&quot;  =  'Railway Station' OR  &quot;classification&quot;  =  'Light Rapid Transit Station' THEN '35,0' WHEN  &quot;classification&quot;  =  'Light Rapid Transit Station And London Underground Station'  OR  &quot;classification&quot;  =   'Railway Station And London Underground Station'  THEN '85,0' WHEN  &quot;classification&quot;  =   'London Underground Station' THEN '45,0' WHEN  &quot;classification&quot;  = 'Light Rapid Transit Station And Railway Station' THEN '60,0' END~~"/>
+    <property key="labeling/dataDefined/OffsetXY" value="1~~1~~CASE WHEN  &quot;CLASSIFICA&quot;  =  'Railway Station' OR  &quot;CLASSIFICA&quot;  =  'Light Rapid Transit Station' THEN '35,0' WHEN  &quot;CLASSIFICA&quot;  =  'Light Rapid Transit Station And London Underground Station'  OR  &quot;CLASSIFICA&quot;  =   'Railway Station And London Underground Station'  THEN '85,0' WHEN  &quot;CLASSIFICA&quot;  =   'London Underground Station' THEN '45,0' WHEN  &quot;CLASSIFICA&quot;  = 'Light Rapid Transit Station And Railway Station' THEN '60,0' END~~"/>
     <property key="labeling/decimals" value="3"/>
     <property key="labeling/displayAll" value="false"/>
     <property key="labeling/dist" value="0"/>
@@ -332,6 +366,7 @@
   </labelattributes>
   <edittypes>
     <edittype labelontop="0" editable="1" type="0" name="CLASSIFICA"/>
+    <edittype labelontop="0" editable="1" type="0" name="FEATCODE"/>
     <edittype labelontop="0" editable="1" type="0" name="ID"/>
     <edittype labelontop="0" editable="1" type="0" name="NAME"/>
     <edittype labelontop="0" editable="1" type="0" name="classification"/>
@@ -339,8 +374,9 @@
     <edittype labelontop="0" editable="1" type="0" name="gml_id"/>
     <edittype labelontop="0" editable="1" type="0" name="name"/>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
+  <featformsuppress>0</featformsuppress>
   <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>

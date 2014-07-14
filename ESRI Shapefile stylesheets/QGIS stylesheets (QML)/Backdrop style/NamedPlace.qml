@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.0.1-Dufour" minimumScale="0" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 symbollevels="0" type="singleSymbol">
     <symbols>
       <symbol alpha="0" type="marker" name="0">
@@ -7,19 +7,22 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="color_border" v="255,255,255,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
+          <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="scale_method" v="area"/>
           <prop k="size" v="2"/>
           <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
     </symbols>
-    <rotation field=""/>
-    <sizescale field="" scalemethod="area"/>
+    <rotation/>
+    <sizescale scalemethod="area"/>
   </renderer-v2>
   <customproperties>
     <property key="labeling" value="pal"/>
@@ -48,7 +51,7 @@
     <property key="labeling/dist" value="0"/>
     <property key="labeling/distInMapUnits" value="false"/>
     <property key="labeling/enabled" value="true"/>
-    <property key="labeling/fieldName" value="HTMLNAME"/>
+    <property key="labeling/fieldName" value="CASE WHEN  length( &quot;HTMLNAME&quot; ) > 13 AND strpos(&quot;HTMLNAME&quot;,' ') > 6  THEN  replace(&quot;HTMLNAME&quot;,' ','  ') WHEN  length( &quot;HTMLNAME&quot; ) > 20 AND &quot;HTMLNAME&quot;  LIKE '%Golf Course' THEN  regexp_replace(&quot;HTMLNAME&quot;,'Golf Course',' Golf Course') WHEN  length( &quot;HTMLNAME&quot; ) > 20 AND &quot;HTMLNAME&quot;  LIKE '%Nature Reserve' THEN  regexp_replace(&quot;HTMLNAME&quot;,'Nature Reserve',' Nature Reserve') WHEN  length( &quot;HTMLNAME&quot; ) > 20 AND &quot;HTMLNAME&quot;  LIKE '%Church Of England%' THEN  regexp_replace(&quot;HTMLNAME&quot;,'Church Of England',' Church Of England ')  WHEN  length( &quot;HTMLNAME&quot; ) > 13 AND &quot;HTMLNAME&quot;  LIKE '% Of The %' THEN  regexp_replace(&quot;HTMLNAME&quot;,'Of The','Of The ') WHEN  length( &quot;HTMLNAME&quot; ) > 13 AND &quot;HTMLNAME&quot;  LIKE '% of %' AND  &quot;FONTCOLOUR&quot; &lt;> 2 AND  &quot;FONTCOLOUR&quot; &lt;>  4 THEN  regexp_replace(&quot;HTMLNAME&quot;,' of ',' of  ')  WHEN &quot;HTMLNAME&quot; LIKE '%/%' THEN regexp_replace(&quot;HTMLNAME&quot;,'/','/  ') WHEN  length( &quot;HTMLNAME&quot; ) > 30 THEN  replace(&quot;HTMLNAME&quot;,' ','  ')  ELSE  &quot;HTMLNAME&quot;  END"/>
     <property key="labeling/fontBold" value="false"/>
     <property key="labeling/fontCapitals" value="0"/>
     <property key="labeling/fontFamily" value="Arial"/>
@@ -64,7 +67,7 @@
     <property key="labeling/fontWeight" value="50"/>
     <property key="labeling/fontWordSpacing" value="0"/>
     <property key="labeling/formatNumbers" value="false"/>
-    <property key="labeling/isExpression" value="false"/>
+    <property key="labeling/isExpression" value="true"/>
     <property key="labeling/labelOffsetInMapUnits" value="true"/>
     <property key="labeling/labelPerPart" value="false"/>
     <property key="labeling/leftDirectionSymbol" value="&lt;"/>
@@ -74,7 +77,7 @@
     <property key="labeling/maxNumLabels" value="2000"/>
     <property key="labeling/mergeLines" value="false"/>
     <property key="labeling/minFeatureSize" value="0"/>
-    <property key="labeling/multilineAlign" value="0"/>
+    <property key="labeling/multilineAlign" value="1"/>
     <property key="labeling/multilineHeight" value="1"/>
     <property key="labeling/namedStyle" value="Normal"/>
     <property key="labeling/obstacle" value="false"/>
@@ -140,7 +143,7 @@
     <property key="labeling/textColorR" value="60"/>
     <property key="labeling/textTransp" value="0"/>
     <property key="labeling/upsidedownLabels" value="0"/>
-    <property key="labeling/wrapChar" value=""/>
+    <property key="labeling/wrapChar" value="  "/>
     <property key="labeling/xOffset" value="0"/>
     <property key="labeling/yOffset" value="0"/>
   </customproperties>
@@ -188,6 +191,7 @@
   </edittypes>
   <editform>.</editform>
   <editforminit></editforminit>
+  <featformsuppress>0</featformsuppress>
   <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>
