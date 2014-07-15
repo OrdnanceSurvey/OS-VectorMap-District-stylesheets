@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.2.0-Valmiera" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.2.0-Valmiera" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="1" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <renderer-v2 attr="CLASSIFICA" symbollevels="1" type="categorizedSymbol">
     <categories>
       <category symbol="0" value="A Road" label="A Road"/>
@@ -531,7 +531,7 @@
     <property key="labeling/dist" value="0"/>
     <property key="labeling/distInMapUnits" value="false"/>
     <property key="labeling/enabled" value="true"/>
-    <property key="labeling/fieldName" value="CASE WHEN  &quot;CLASSIFICA&quot; =  'Local Street' OR  &quot;CLASSIFICA&quot; =   'Minor Road' OR  &quot;CLASSIFICA&quot; =   'Minor Road, Collapsed Dual Carriageway'  OR  &quot;CLASSIFICA&quot; =   'Pedestrianised Street' OR  &quot;CLASSIFICA&quot; =  'Private Road Publicly Accessible'   THEN  name  ELSE  dftNumber END"/>
+    <property key="labeling/fieldName" value="CASE WHEN  &quot;CLASSIFICA&quot; =  'Local Street' OR &quot;CLASSIFICA&quot; =  'Minor Road' OR &quot;CLASSIFICA&quot; =  'Minor Road, Collapsed Dual Carriageway'  OR &quot;CLASSIFICA&quot; =  'Pedestrianised Street' OR &quot;CLASSIFICA&quot; =  'Private Road Publicly Accessible'   THEN    &quot;NAME&quot;  WHEN &quot;CLASSIFICA&quot; =  'Motorway' AND  $length  &lt; 1000  THEN '' WHEN &quot;CLASSIFICA&quot; =  'Motorway' AND  $length   >= 1000  THEN &quot;DFTNUMBER&quot;  ELSE coalesce(&quot;DFTNUMBER&quot;,'') || '  '  || coalesce(&quot;NAME&quot;,'') END"/>
     <property key="labeling/fontBold" value="false"/>
     <property key="labeling/fontCapitals" value="0"/>
     <property key="labeling/fontFamily" value="Arial"/>
