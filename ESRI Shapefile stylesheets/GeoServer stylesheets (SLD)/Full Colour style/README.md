@@ -18,7 +18,7 @@ These are SLD files for OS VectorMap District in SHP format for use in GeoServer
 
 **6.**  To create OS VectorMap District in GeoServer you will need to create a Layer Group. If using the GUI then navigate to Layer Groups > Add new layer group > Add Layer and choose each layer in turn to create the following layer order:
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/GML%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Full%20Colour%20style/images/VMD_layer_order.png "Recommended layer order for OS VectorMap District")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/ESRI%20Shapefile%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Full%20Colour%20style/images/VMD_layer_order.png "Recommended layer order for OS VectorMap District")
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 Although every feature is styled, for use as a general contextual map we have commented some of them out by default.
@@ -26,7 +26,7 @@ The scale denominators have been set to allow viewing between **1:7,000** and **
 
 Your map should look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/GML%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Full%20Colour%20style/images/VMD_FC_Screenshot.png "Screenshot of OS VectorMap District")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/ESRI%20Shapefile%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Full%20Colour%20style/images/VMD_FC_Screenshot.png "Screenshot of OS VectorMap District")
 
 ##Compatibility notes
 
