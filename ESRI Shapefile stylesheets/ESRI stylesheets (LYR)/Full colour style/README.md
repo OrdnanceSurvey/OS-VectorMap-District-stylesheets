@@ -1,6 +1,6 @@
 # OS VectorMap District Full colour style
 
-These are QML files for OS VectorMap District in ESRI Shapefile format for use in ESRI ArcGIS.
+These are LYR files for OS VectorMap District in ESRI Shapefile format for use in ESRI ArcGIS.
 
 *They have been designed to work with the data as it is supplied.*
 
