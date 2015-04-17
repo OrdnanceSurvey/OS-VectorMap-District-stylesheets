@@ -16,11 +16,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>15</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -58,11 +58,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>15</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -100,11 +100,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>15</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -145,11 +145,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>13</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -189,11 +189,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>13</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -233,11 +233,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>13</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -277,11 +277,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>13</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -324,16 +324,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -374,16 +374,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -424,16 +424,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -474,16 +474,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -524,16 +524,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -577,11 +577,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -621,11 +621,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -665,11 +665,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -709,11 +709,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -757,11 +757,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -808,11 +808,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>8</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -852,11 +852,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>8</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -896,11 +896,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>8</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -940,11 +940,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>8</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -988,11 +988,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>8</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1039,16 +1039,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>6.5</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -1089,16 +1089,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>6.5</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -1139,16 +1139,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>6.5</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -1193,16 +1193,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>6.5</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -1251,11 +1251,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1296,11 +1296,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1340,11 +1340,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1388,11 +1388,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1445,11 +1445,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1495,11 +1495,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1545,11 +1545,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1599,11 +1599,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1658,20 +1658,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>28</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>27</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>26</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -1722,16 +1722,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>25</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>24</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -1779,16 +1779,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>25</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>24</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -1839,16 +1839,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>23</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>22</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -1896,16 +1896,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>23</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>22</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -1956,20 +1956,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>21</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>20</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>19</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2017,20 +2017,20 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>21</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>20</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>19</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2081,16 +2081,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>18</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>17</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2138,16 +2138,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>18</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>17</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2195,16 +2195,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>18</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>17</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2261,16 +2261,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2318,16 +2318,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2375,16 +2375,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2436,16 +2436,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2500,16 +2500,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2557,16 +2557,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2614,16 +2614,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2675,16 +2675,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -2739,11 +2739,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>12</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -2790,11 +2790,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>12</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -2841,11 +2841,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>12</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -2896,11 +2896,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>12</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -2954,16 +2954,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -3011,16 +3011,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -3068,16 +3068,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -3129,16 +3129,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -3193,11 +3193,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3244,11 +3244,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3295,11 +3295,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3350,11 +3350,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>9</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3408,11 +3408,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>8</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3459,11 +3459,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>8</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3514,11 +3514,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>8</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3572,11 +3572,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>7</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3622,11 +3622,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>7</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3672,11 +3672,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>7</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3722,11 +3722,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>7</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3775,11 +3775,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3825,11 +3825,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3875,11 +3875,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3925,11 +3925,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -3978,11 +3978,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -4028,11 +4028,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -4082,11 +4082,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fonttype</ogc:PropertyName>
+                <ogc:PropertyName>FONTTYPE</ogc:PropertyName>
                 <ogc:Literal>1</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -4142,11 +4142,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4194,11 +4194,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4246,11 +4246,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4298,11 +4298,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4350,11 +4350,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4405,11 +4405,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4457,11 +4457,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4509,11 +4509,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4561,11 +4561,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4613,11 +4613,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4668,11 +4668,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4720,11 +4720,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4772,11 +4772,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4824,11 +4824,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4876,11 +4876,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4931,11 +4931,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -4983,11 +4983,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5035,11 +5035,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5087,11 +5087,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5139,11 +5139,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5194,11 +5194,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>8</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5246,11 +5246,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>8</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5298,11 +5298,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>8</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5350,11 +5350,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>8</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5404,7 +5404,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -5450,7 +5450,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -5496,7 +5496,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -5542,7 +5542,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -5591,7 +5591,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -5637,7 +5637,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -5683,7 +5683,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>3</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -5735,11 +5735,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>28</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>26</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5787,11 +5787,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>28</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>26</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5839,11 +5839,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>28</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>26</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5894,11 +5894,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>24</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>22</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -5948,11 +5948,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>24</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>22</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6002,11 +6002,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>24</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>22</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6056,11 +6056,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>24</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>22</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6113,11 +6113,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>20</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>18</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6167,11 +6167,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>20</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>18</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6221,11 +6221,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>20</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>18</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6275,11 +6275,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>20</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>18</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6329,11 +6329,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:PropertyIsEqualTo>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>20</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>18</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6394,11 +6394,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6454,11 +6454,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6514,11 +6514,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6574,11 +6574,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6634,11 +6634,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>16</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>15</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6697,11 +6697,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6757,11 +6757,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6817,11 +6817,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6877,11 +6877,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -6937,11 +6937,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>14</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>13</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7000,11 +7000,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7060,11 +7060,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7120,11 +7120,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7180,11 +7180,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7240,11 +7240,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>12</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>11</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7303,11 +7303,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7363,11 +7363,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7423,11 +7423,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7483,11 +7483,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7543,11 +7543,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>10</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>9</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7606,11 +7606,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>8</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7666,11 +7666,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>8</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7726,11 +7726,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>8</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7786,11 +7786,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               </ogc:Or>
               <ogc:Or>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>8</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
                 <ogc:PropertyIsEqualTo>
-                  <ogc:PropertyName>fontheight</ogc:PropertyName>
+                  <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                   <ogc:Literal>7</ogc:Literal>
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
@@ -7848,7 +7848,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -7902,7 +7902,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -7956,7 +7956,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -8010,7 +8010,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>6</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -8067,7 +8067,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -8121,7 +8121,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -8175,7 +8175,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 </ogc:PropertyIsEqualTo>
               </ogc:Or>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>5</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -8226,7 +8226,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>4</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -8274,7 +8274,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>4</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -8322,7 +8322,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                 <ogc:Literal>2</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fontheight</ogc:PropertyName>
+                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
                 <ogc:Literal>4</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
