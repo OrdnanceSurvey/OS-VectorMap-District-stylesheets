@@ -22,7 +22,7 @@ These are LYR files for OS VectorMap District in ESRI Shapefile format for use i
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/VMD_layer_order.PNG "Recommended layer order for OS VectorMap District")
 
-**7.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap District data > select the data that matches the layer for example, Text = XX_PublicAmenity.shp (XX being the 100km tile name) > select ‘Add’
+**7.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap District data > select the data that matches the layer, for example for Airport select XX_Airport.shp (XX being the 100km tile name) > select ‘Add’
 
 Repeat step 7 for all layers.
 
@@ -31,6 +31,10 @@ We recommend viewing the map between **1:10,000** and **1:25,000** for maximum l
 Your map should now look similar to this: 
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/VMD_BD_screenshot.PNG "Screenshot of OS VectorMap District at 1:17,500")
+
+## Compatibility notes
+
+These Layer Files are compatible with ESRI ArcGIS 9.3 and later
 
 ## Additional information
 
