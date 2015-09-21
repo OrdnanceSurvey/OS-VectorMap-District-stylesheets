@@ -8,23 +8,27 @@ These are LYR files for OS VectorMap District in ESRI Shapefile format for use i
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/archive/master.zip) the contents of this repository
 
-**2.**  Copy the font file 'OS_VMDistrict.otf' into your systems font directory (on Windows machines this is (C:\Windows\Fonts)
+**2.**  Copy the font file 'OS_VMDistrict.otf' into your systems font directory (on Windows machines this is C:\Windows\Fonts). Replace any previous version
 
 *Your machine may require a restart for ArcGIS to recognise this new font*
 
 **3.**  Open a new blank map in ArcMap
 
-**4.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format, stylesheet format and style preference
+**4.**  Right-click on ‘Layers’ at the top of the Table Of Contents, select Properties… > then General > set Reference Scale to 1:25 000 and set the Label Engine to ‘Maplex Label Engine’
 
-**5.**  Select the layer file and click ‘Add’
+**5.**  In the same window select the Coordinate System tab > choose British National Grid. You may need to reposition to the data extent
 
-**6.**  Your Table of Contents should now look like this. This is the recommended layer order: 
+**6.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format, stylesheet format and style preference
+
+**7.**  Select the layer file and click ‘Add’
+
+**8.**  Your Table of Contents should now look like this. This is the recommended layer order: 
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/ESRI%20Shapefile%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/VMD_layer_order.PNG "Recommended layer order for OS VectorMap District")
 
-**7.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap District data > select the data that matches the layer, for example for Airport select XX_Airport.shp (XX being the 100km tile name) > select ‘Add’
+**9.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap District data > select the data that matches the layer, for example for Airport select XX_Airport.shp (XX being the 100km tile name) > select ‘Add’
 
-Repeat step 7 for all layers.
+Repeat step 9 for all layers.
 
 We recommend viewing the map between **1:10,000** and **1:25,000** for maximum legibility
 
