@@ -16,7 +16,7 @@ These are LYR files for OS VectorMap District in ESRI Shapefile format for use i
 
 **4.**  Right-click on ‘Layers’ at the top of the Table Of Contents, select Properties… > then General > set Reference Scale to 1:25 000 and set the Label Engine to ‘Maplex Label Engine’
 
-**5.**  In the same window select the Coordinate System tab > choose British National Grid. You may need to reposition to the data extent
+**5.**  In the same window select the Frame tab and change the Background colour to R 252 G 252 B 250, and under the Coordinate System tab > choose British National Grid. You may need to reposition to the data extent
 
 **6.**  Click on the ‘Add Data’ button and navigate to the stylesheets folder and the directory that matches your data format, stylesheet format and style preference
 
@@ -38,9 +38,13 @@ Your map should now look similar to this:
 
 ## Compatibility notes
 
-These Layer Files are compatible with ESRI ArcGIS 9.3 and later
+Our Layer Files are compatible with versions of ESRI ArcGIS back to version 9.3 (released in 2008)
 
 ## Additional information
+
+Spatial indexing of the data in ArcGIS will significantly improve performance (draw speed)
+
+‘Hidden’ features can be activated through the relevant checkbox or by unchecking ‘Color is Null’ in the Color Selector dialogue
 
 [More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)
 
