@@ -27,7 +27,7 @@
       <symbol alpha="1" type="marker" name="0">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="255,60,140,255"/>
+          <prop k="color" v="243,243,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
@@ -48,7 +48,7 @@
       <symbol alpha="1" type="marker" name="1">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="243,243,0,255"/>
+          <prop k="color" v="255,60,140,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
@@ -73,10 +73,10 @@
           <prop k="color" v="255,255,255,255"/>
           <prop k="font" v="OS VectorMap District Normal"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="offset" v="0,0"/>
+          <prop k="offset" v="0,-8"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
-          <prop k="size" v="60"/>
+          <prop k="size" v="70"/>
           <prop k="size_map_unit_scale" v="0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -87,9 +87,9 @@
           <prop k="color" v="255,60,140,255"/>
           <prop k="font" v="OS VectorMap District Normal"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="offset" v="0,0"/>
+          <prop k="offset" v="0,-8"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
+          <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="70"/>
           <prop k="size_map_unit_scale" v="0,0"/>
           <prop k="size_unit" v="MapUnit"/>
@@ -103,7 +103,7 @@
           <prop k="color" v="255,255,255,255"/>
           <prop k="font" v="OS VectorMap District Normal"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="offset" v="39,-7"/>
+          <prop k="offset" v="39,-8"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="60"/>
@@ -117,7 +117,7 @@
           <prop k="color" v="255,60,140,255"/>
           <prop k="font" v="OS VectorMap District Normal"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="offset" v="39,-7"/>
+          <prop k="offset" v="39,-8"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="70"/>
@@ -192,10 +192,10 @@
           <prop k="color" v="255,255,255,255"/>
           <prop k="font" v="OS VectorMap District Normal"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="offset" v="39,-7"/>
+          <prop k="offset" v="39,-8"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
-          <prop k="size" v="60"/>
+          <prop k="size" v="70"/>
           <prop k="size_map_unit_scale" v="0,0"/>
           <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
@@ -206,7 +206,7 @@
           <prop k="color" v="255,60,140,255"/>
           <prop k="font" v="OS VectorMap District Normal"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="offset" v="39,-7"/>
+          <prop k="offset" v="39,-8"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="70"/>
@@ -281,7 +281,7 @@
     <property key="labeling/bufferTransp" value="25"/>
     <property key="labeling/centroidInside" value="false"/>
     <property key="labeling/centroidWhole" value="false"/>
-    <property key="labeling/dataDefined/OffsetXY" value="1~~1~~CASE WHEN &quot;classification&quot; = 'Railway Station' OR &quot;classification&quot; = 'Light Rapid Transit Station' THEN '35,0' WHEN   &quot;classification&quot; = 'Light Rapid Transit Station And London Underground Station' OR &quot;classification&quot; = 'Railway Station And London Underground Station' THEN '85,0' WHEN &quot;classification&quot; = 'London Underground Station' THEN '45,0' WHEN &quot;classification&quot; = 'Light Rapid Transit Station And Railway Station' THEN '60,0' END~~"/>
+    <property key="labeling/dataDefined/OffsetXY" value="1~~1~~CASE WHEN &quot;featureCode&quot; = 25422 OR &quot;featureCode&quot; = 25420 THEN '35,0' WHEN &quot;featureCode&quot; = 25426 OR &quot;featureCode&quot; = 25424 THEN '85,0' WHEN &quot;featureCode&quot; = 25423 THEN '45,0' WHEN &quot;featureCode&quot; = 25425 THEN '60,0' END~~"/>
     <property key="labeling/decimals" value="3"/>
     <property key="labeling/displayAll" value="false"/>
     <property key="labeling/dist" value="0"/>
@@ -396,9 +396,9 @@
     <property key="labeling/shapeTransparency" value="0"/>
     <property key="labeling/shapeType" value="0"/>
     <property key="labeling/textColorA" value="255"/>
-    <property key="labeling/textColorB" value="42"/>
-    <property key="labeling/textColorG" value="42"/>
-    <property key="labeling/textColorR" value="42"/>
+    <property key="labeling/textColorB" value="7"/>
+    <property key="labeling/textColorG" value="7"/>
+    <property key="labeling/textColorR" value="8"/>
     <property key="labeling/textTransp" value="0"/>
     <property key="labeling/upsidedownLabels" value="0"/>
     <property key="labeling/wrapChar" value=""/>

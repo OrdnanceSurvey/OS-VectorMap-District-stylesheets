@@ -1,20 +1,20 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="2.8.1-Wien" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
-    <edittype widgetv2type="TextEdit" name="gml_id">
+    <edittype widgetv2type="TextEdit" name="ID">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="distinctiveName">
+    <edittype widgetv2type="TextEdit" name="DISTNAME">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="classification">
+    <edittype widgetv2type="TextEdit" name="CLASSIFICA">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="featureCode">
+    <edittype widgetv2type="TextEdit" name="FEATCODE">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
   </edittypes>
-  <renderer-v2 attr="featureCode" symbollevels="0" type="categorizedSymbol">
+  <renderer-v2 attr="FEATCODE" symbollevels="0" type="categorizedSymbol">
     <categories>
       <category render="true" symbol="0" value="25420" label="Light Rapid Transit Station"/>
       <category render="true" symbol="1" value="25422" label="Railway Station"/>
@@ -73,7 +73,7 @@
           <prop k="color" v="255,255,255,255"/>
           <prop k="font" v="OS VectorMap District Normal"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="offset" v="0,-8"/>
+          <prop k="offset" v="0,-7.5"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="70"/>
@@ -87,7 +87,7 @@
           <prop k="color" v="235,108,177,255"/>
           <prop k="font" v="OS VectorMap District Normal"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="offset" v="0,-8"/>
+          <prop k="offset" v="0,-7.5"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="70"/>
@@ -127,7 +127,7 @@
         </layer>
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="255,60,140,255"/>
+          <prop k="color" v="235,108,177,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="-27,0"/>
@@ -239,7 +239,7 @@
       <symbol alpha="1" type="marker" name="0">
         <layer pass="0" class="SimpleMarker" locked="0">
           <prop k="angle" v="0"/>
-          <prop k="color" v="157,129,18,255"/>
+          <prop k="color" v="130,32,165,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="name" v="circle"/>
           <prop k="offset" v="0,0"/>
@@ -281,7 +281,7 @@
     <property key="labeling/bufferTransp" value="25"/>
     <property key="labeling/centroidInside" value="false"/>
     <property key="labeling/centroidWhole" value="false"/>
-    <property key="labeling/dataDefined/OffsetXY" value="1~~1~~CASE WHEN &quot;classification&quot; = 'Railway Station' OR &quot;classification&quot; = 'Light Rapid Transit Station' THEN '35,0' WHEN   &quot;classification&quot; = 'Light Rapid Transit Station And London Underground Station' OR &quot;classification&quot; = 'Railway Station And London Underground Station' THEN '85,0' WHEN &quot;classification&quot; = 'London Underground Station' THEN '45,0' WHEN &quot;classification&quot; = 'Light Rapid Transit Station And Railway Station' THEN '60,0' END~~"/>
+    <property key="labeling/dataDefined/OffsetXY" value="1~~1~~CASE WHEN &quot;FEATCODE&quot; = 25422 OR &quot;FEATCODE&quot; = 25420 THEN '35,0' WHEN &quot;FEATCODE&quot; = 25426 OR &quot;FEATCODE&quot; = 25424 THEN '85,0' WHEN &quot;FEATCODE&quot; = 25423 THEN '45,0' WHEN &quot;FEATCODE&quot; = 25425 THEN '60,0' END~~"/>
     <property key="labeling/decimals" value="3"/>
     <property key="labeling/displayAll" value="false"/>
     <property key="labeling/dist" value="0"/>
@@ -289,7 +289,7 @@
     <property key="labeling/distMapUnitMaxScale" value="0"/>
     <property key="labeling/distMapUnitMinScale" value="0"/>
     <property key="labeling/enabled" value="true"/>
-    <property key="labeling/fieldName" value="wordwrap(&quot;distinctiveName&quot;, 20)"/>
+    <property key="labeling/fieldName" value="wordwrap(&quot;DISTNAME&quot;, 20)"/>
     <property key="labeling/fontBold" value="true"/>
     <property key="labeling/fontCapitals" value="0"/>
     <property key="labeling/fontFamily" value="Arial"/>
@@ -408,7 +408,7 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerTransparency>0</layerTransparency>
-  <displayfield>distinctiveName</displayfield>
+  <displayfield>DISTNAME</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Label"/>

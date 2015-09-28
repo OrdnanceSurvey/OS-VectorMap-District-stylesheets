@@ -1,32 +1,32 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="2.8.1-Wien" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+<qgis version="2.8.1-Wien" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
   <edittypes>
-    <edittype widgetv2type="TextEdit" name="gml_id">
+    <edittype widgetv2type="TextEdit" name="ID">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="classification">
+    <edittype widgetv2type="TextEdit" name="DISTNAME">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="drawLevel">
+    <edittype widgetv2type="TextEdit" name="ROADNUMBER">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="override">
+    <edittype widgetv2type="TextEdit" name="CLASSIFICA">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="featureCode">
+    <edittype widgetv2type="TextEdit" name="DRAWLEVEL">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="distinctiveName">
+    <edittype widgetv2type="TextEdit" name="OVERRIDE">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
-    <edittype widgetv2type="TextEdit" name="roadNumber">
+    <edittype widgetv2type="TextEdit" name="FEATCODE">
       <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
     </edittype>
   </edittypes>
   <renderer-v2 symbollevels="0" type="RuleRenderer">
-    <rules key="{d929fcf6-de59-4ebe-92b3-7eb58860e0d9}">
-      <rule filter=" &quot;featureCode&quot;  =  25719 OR  &quot;featureCode&quot;  =  25735 OR &quot;featureCode&quot;  =  25739 OR &quot;featureCode&quot;  =  25749 OR &quot;featureCode&quot;  =  25759 " key="{b01047cc-5fc2-4a6d-92fd-625574e000ed}" symbol="0" label="Dual Carriageway"/>
-      <rule filter="&quot;featureCode&quot; = 25710 OR &quot;featureCode&quot; = 25723 OR &quot;featureCode&quot; = 25729 OR &quot;featureCode&quot; = 25743 OR &quot;featureCode&quot; = 25750 OR &quot;featureCode&quot; = 25760 OR &quot;featureCode&quot; = 25780 OR &quot;featureCode&quot; = 25790" key="{5839b95a-6b8f-43df-b455-c983ad75f1c5}" symbol="1" label="Single Carriageway"/>
+    <rules key="{c7454398-98d9-440d-b772-6a87e5d46014}">
+      <rule filter="&quot;FEATCODE&quot;  =  25719 OR  &quot;FEATCODE&quot;  =  25735 OR &quot;FEATCODE&quot;  =  25739 OR &quot;FEATCODE&quot;  =  25749 OR &quot;FEATCODE&quot;  =  25759" key="{f5cd8aa6-3a45-44ef-b2ea-a0fda0a812d9}" symbol="0" label="Dual Carriageway"/>
+      <rule filter="&quot;FEATCODE&quot; = 25710 OR &quot;FEATCODE&quot; = 25723 OR &quot;FEATCODE&quot; = 25729 OR &quot;FEATCODE&quot; = 25743 OR &quot;FEATCODE&quot; = 25750 OR &quot;FEATCODE&quot; = 25760 OR &quot;FEATCODE&quot; = 25780 OR &quot;FEATCODE&quot; = 25790" key="{18d089b7-7ba9-473c-a302-91721a150f11}" symbol="1" label="Single Carriageway"/>
     </rules>
     <symbols>
       <symbol alpha="1" type="line" name="0">
@@ -37,9 +37,9 @@
           <prop k="customdash_unit" v="MapUnit"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="150,150,150,255"/>
+          <prop k="line_color" v="80,80,80,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="26.5"/>
+          <prop k="line_width" v="28"/>
           <prop k="line_width_unit" v="MapUnit"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -56,9 +56,9 @@
           <prop k="customdash_unit" v="MapUnit"/>
           <prop k="draw_inside_polygon" v="0"/>
           <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="150,150,150,255"/>
+          <prop k="line_color" v="80,80,80,255"/>
           <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="16.5"/>
+          <prop k="line_width" v="18"/>
           <prop k="line_width_unit" v="MapUnit"/>
           <prop k="offset" v="0"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
@@ -89,11 +89,11 @@
     <property key="labeling/bufferTransp" value="22"/>
     <property key="labeling/centroidInside" value="false"/>
     <property key="labeling/centroidWhole" value="false"/>
-    <property key="labeling/dataDefined/BufferSize" value="1~~1~~CASE WHEN &quot;featureCode&quot; =  25750 OR &quot;featureCode&quot; =  25759  THEN  '1'  ELSE  '1.3' END~~"/>
-    <property key="labeling/dataDefined/Color" value="1~~1~~CASE WHEN &quot;featureCode&quot; = 25750 OR &quot;featureCode&quot; = 25759 THEN color_rgb( 113, 113, 113) WHEN &quot;featureCode&quot; = 25743 OR  &quot;featureCode&quot; = 25749 THEN color_rgb( 212, 158, 114) WHEN &quot;featureCode&quot; = 25729 OR &quot;featureCode&quot; = 25739 THEN color_rgb( 212, 106, 141) WHEN &quot;featureCode&quot; = 25723 OR  &quot;featureCode&quot; = 25735 THEN color_rgb( 120, 179, 127) WHEN &quot;featureCode&quot; = 25710 OR &quot;featureCode&quot; = 25719 THEN color_rgb( 54, 177, 201) END~~"/>
-    <property key="labeling/dataDefined/FontStyle" value="1~~1~~CASE WHEN &quot;featureCode&quot; =  25750 OR &quot;featureCode&quot; =  25759  THEN  'Normal'  ELSE  'Bold' END~~"/>
-    <property key="labeling/dataDefined/FontWordSpacing" value="1~~1~~CASE WHEN  &quot;featureCode&quot; = 25729 OR &quot;featureCode&quot; = 25739 THEN -17 WHEN &quot;featureCode&quot; =  25750 OR &quot;featureCode&quot; =  25759 THEN 16 ELSE 40 END~~"/>
-    <property key="labeling/dataDefined/Size" value="1~~1~~CASE WHEN &quot;featureCode&quot; =  25750 OR &quot;featureCode&quot; =  25759 THEN  '44'  ELSE  '49' END~~"/>
+    <property key="labeling/dataDefined/BufferSize" value="1~~1~~CASE WHEN &quot;FEATCODE&quot; =  25750 OR &quot;FEATCODE&quot; =  25759  THEN  '1'  ELSE  '1.3' END~~"/>
+    <property key="labeling/dataDefined/Color" value="1~~1~~CASE WHEN  &quot;FEATCODE&quot; =  25750 OR  &quot;FEATCODE&quot; =  25759 THEN color_rgb( 72, 72, 72) WHEN  &quot;FEATCODE&quot; = 25743 OR  &quot;FEATCODE&quot; = 25749 THEN color_rgb( 214, 133, 34) WHEN  &quot;FEATCODE&quot; = 25729 OR  &quot;FEATCODE&quot; = 25739 THEN color_rgb( 212, 28, 64) WHEN  &quot;FEATCODE&quot; = 25723 OR  &quot;FEATCODE&quot; = 25735 THEN color_rgb( 0, 166, 41) WHEN &quot;FEATCODE&quot; = 25710 OR  &quot;FEATCODE&quot; = 25719 THEN color_rgb( 0, 159, 184) END~~"/>
+    <property key="labeling/dataDefined/FontStyle" value="1~~1~~CASE WHEN &quot;FEATCODE&quot; =  25750 OR &quot;FEATCODE&quot; =  25759  THEN  'Normal'  ELSE  'Bold' END~~"/>
+    <property key="labeling/dataDefined/FontWordSpacing" value="1~~1~~CASE WHEN  &quot;FEATCODE&quot; = 25729 OR &quot;FEATCODE&quot; = 25739 THEN -17 WHEN &quot;FEATCODE&quot; =  25750 OR &quot;FEATCODE&quot; =  25759 THEN 16 ELSE 40 END~~"/>
+    <property key="labeling/dataDefined/Size" value="1~~1~~CASE WHEN &quot;FEATCODE&quot; =  25750 OR &quot;FEATCODE&quot; =  25759 THEN  '44'  ELSE  '49' END~~"/>
     <property key="labeling/decimals" value="3"/>
     <property key="labeling/displayAll" value="false"/>
     <property key="labeling/dist" value="0"/>
@@ -101,7 +101,7 @@
     <property key="labeling/distMapUnitMaxScale" value="0"/>
     <property key="labeling/distMapUnitMinScale" value="0"/>
     <property key="labeling/enabled" value="true"/>
-    <property key="labeling/fieldName" value="CASE WHEN  &quot;featureCode&quot; = 25729 OR &quot;featureCode&quot; = 25739 THEN regexp_replace( &quot;distinctiveName&quot; ,'\\s','  ') ELSE &quot;distinctiveName&quot;  END"/>
+    <property key="labeling/fieldName" value="CASE WHEN  &quot;FEATCODE&quot; = 25729 OR &quot;FEATCODE&quot; = 25739 THEN regexp_replace( &quot;DISTNAME&quot; ,'\\s','  ') ELSE &quot;DISTNAME&quot;  END"/>
     <property key="labeling/fontBold" value="false"/>
     <property key="labeling/fontCapitals" value="0"/>
     <property key="labeling/fontFamily" value="Arial"/>
@@ -208,9 +208,9 @@
     <property key="labeling/shapeTransparency" value="0"/>
     <property key="labeling/shapeType" value="0"/>
     <property key="labeling/textColorA" value="255"/>
-    <property key="labeling/textColorB" value="113"/>
-    <property key="labeling/textColorG" value="113"/>
-    <property key="labeling/textColorR" value="113"/>
+    <property key="labeling/textColorB" value="0"/>
+    <property key="labeling/textColorG" value="0"/>
+    <property key="labeling/textColorR" value="0"/>
     <property key="labeling/textTransp" value="0"/>
     <property key="labeling/upsidedownLabels" value="0"/>
     <property key="labeling/wrapChar" value=""/>
@@ -220,7 +220,7 @@
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerTransparency>0</layerTransparency>
-  <displayfield>distinctiveName</displayfield>
+  <displayfield>DISTNAME</displayfield>
   <label>0</label>
   <labelattributes>
     <label fieldname="" text="Label"/>
