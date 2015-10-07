@@ -284,22 +284,22 @@
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="offset" v="-7,-7"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
+          <prop k="offset_unit" v="MapUnit"/>
           <prop k="outline_color" v="0,0,0,0"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0"/>
           <prop k="outline_width_map_unit_scale" v="0,0"/>
-          <prop k="outline_width_unit" v="MM"/>
+          <prop k="outline_width_unit" v="MapUnit"/>
           <prop k="size" v="2"/>
           <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="symbol_height" v="14"/>
           <prop k="symbol_height_map_unit_scale" v="0,0"/>
-          <prop k="symbol_height_unit" v="MM"/>
+          <prop k="symbol_height_unit" v="MapUnit"/>
           <prop k="symbol_name" v="rectangle"/>
           <prop k="symbol_width" v="54"/>
           <prop k="symbol_width_map_unit_scale" v="0,0"/>
-          <prop k="symbol_width_unit" v="MM"/>
+          <prop k="symbol_width_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
         <layer pass="0" class="FontMarker" locked="0">
@@ -310,10 +310,10 @@
           <prop k="horizontal_anchor_point" v="1"/>
           <prop k="offset" v="0,-35"/>
           <prop k="offset_map_unit_scale" v="0,0"/>
-          <prop k="offset_unit" v="MM"/>
+          <prop k="offset_unit" v="MapUnit"/>
           <prop k="size" v="95"/>
           <prop k="size_map_unit_scale" v="0,0"/>
-          <prop k="size_unit" v="MM"/>
+          <prop k="size_unit" v="MapUnit"/>
           <prop k="vertical_anchor_point" v="1"/>
         </layer>
       </symbol>
