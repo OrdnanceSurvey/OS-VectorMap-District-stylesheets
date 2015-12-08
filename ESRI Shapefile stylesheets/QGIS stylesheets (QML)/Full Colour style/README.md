@@ -36,7 +36,7 @@ Your map should now look similar to this:
 
 ## Compatibility Notes
 
-Our QML files are created in QGIS 2.8.1 and we believe are compatible with any QGIS v2.x
+Our QML files are created in QGIS 2.8.1 and we believe are compatible with any previous QGIS v2.x
 
 ## Additional information
 
