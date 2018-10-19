@@ -1,45 +1,50 @@
-# OS VectorMap Local Backdrop style
+# OS VectorMap District Backdrop style
 
-These are QML files for OS VectorMap Local in GML/GZ format for use in QGIS.
+These are QML files for OS VectorMap District in GML format for use in QGIS.
 
-*They have been designed to work with the data as supplied.*
+*They have been designed to work with the data as it is supplied.*
 
 ## Quick start guide
 
-**1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/archive/master.zip) the contents of this repository
+**1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/archive/master.zip) the contents of this repository
 
-**2.**  Copy the font file 'OS_VMLocal.otf' into your systems font directory (on Windows machines this is C:\Windows\Fonts)
+**2.**  Copy the font file 'OS_VMDistrict.otf' into your systems font directory (on Windows machines this is (C:\Windows\Fonts). Replace any previous version
 
-**3.**  Copy the folder ‘ordnance_survey’ into your QGIS SVG directory (a typical Windows file path is C:\Program Files\QGIS xxxx\apps\qgis\svg, where xxxx represents whatever version of QGIS you are running).
+*Your machine may require a restart to recognise this new font*
 
-*Your machine may require a restart for QGIS to recognise the new font and SVGs*
+**3.**  Open a new, blank map in QGIS
 
-**4.**  Load your OS VectorMap Local SHP data into QGIS
+**4.**  Navigate to Project > Properties... in the top left of the window, and under the 'General' tab change the Background colour to R 250 B 249 G 247
 
-**5.**  Double click on a layer to access the 'Layer Properties' window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the QML file that corresponds to that layer > click 'Open' > click 'OK'
+**5.**  Click on the 'Add Vector Layer' button and navigate to the stylesheets folder and the directory that mathces your dataformat, stylesheets format and style preference
 
-*Repeat step 5 for all layers*
+**6.**  Select each of the required layers and click 'OK'
 
-**6.**  Your Layers window should now look like below. This is the recommended layer order.
+**7.**  Double-click on a layer to access the 'Layer Properties' window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the QML file that corresponds to that layer > click 'Open' > click 'OK'
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/QGIS%20stylesheets%20%28QML%29/Backdrop%20style/images/VML_layer_order.png "Recommended layer order for OS VectorMap Local")
+*Repeat step 7 for all layers*
+
+**8.**  Although every feature is styled, for use as a contextual map our recommended layer order is shown below. Layers can be dragged to reorder accordingly
+
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/GML%20stylesheets/QGIS%20stylesheets%20(QML)/Backdrop%20style/images/VMD_layer_order.PNG "Recommended layer order for OS VectorMap District")
+
+We recommend viewing the map between **1:10,000** and **1:25,000** for maximum legibility
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-Local-stylesheets/master/GML%20stylesheets/QGIS%20stylesheets%20%28QML%29/Backdrop%20style/images/VML_BD_Screenshot.png "Screenshot of OS VectorMap Local")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/GML%20stylesheets/QGIS%20stylesheets%20(QML)/Backdrop%20style/images/VMD_BD_screenshot.PNG "Screenshot of OS VectorMap District at 1:17,500")
 
-We recommend viewing the map between **1:2,500** and **1:10,000** for maximum legibility
+## Compatibility Notes
 
-
-## Compatibility notes
-
-Our QML files are compatible with the latest versions of QGIS.
+Our QML files are created in QGIS 2.8.1 and we believe are compatible with any QGIS v2.x
 
 ## Additional information
 
+'Hidden' features can be activated either through the checkbox or by changing their opacity from 0 to 100 percent
+
 [More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)
 
-[More information about OS VectorMap Local](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-local.html)
+[More information about OS VectorMap District](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html)
 
 [More information about cartographic design at Ordnance Survey](https://www.ordnancesurvey.co.uk/resources/carto-design/)
 
