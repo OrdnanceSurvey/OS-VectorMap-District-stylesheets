@@ -54,4 +54,4 @@ Spatial indexing of the data in ArcGIS will significantly improve performance (d
 
 ## Licence
 
-By using these stylesheets you are accepting the terms of the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/)
+By using these stylesheets you are accepting the terms in the [Stylesheet Licence](http://www.ordnancesurvey.co.uk/docs/licences/stylesheet-licence-v2.pdf)

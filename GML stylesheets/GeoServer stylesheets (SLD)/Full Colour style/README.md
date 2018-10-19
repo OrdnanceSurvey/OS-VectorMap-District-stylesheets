@@ -26,7 +26,7 @@ The scale denominators have been set to allow viewing between **1:7,000** and **
 
 Your map should look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/GML%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Full%20Colour%20style/images/VMD_FC_Screenshot.png "Screenshot of OS VectorMap District")
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/GML%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Full%20Colour%20style/images/VMD_BD_Screenshot.png "Screenshot of OS VectorMap District")
 
 ##Compatibility notes
 
@@ -42,4 +42,4 @@ Although SLD is an open OGC standard, these SLDs do contain some extended code u
 
 ## Licence
 
-By using these stylesheets you are accepting the terms of the [Open Government Licence](http://www.nationalarchives.gov.uk/doc/open-government-licence/)
+By using these stylesheets you are accepting the terms in the [Stylesheet Licence](http://www.ordnancesurvey.co.uk/docs/licences/stylesheet-licence-v2.pdf)
