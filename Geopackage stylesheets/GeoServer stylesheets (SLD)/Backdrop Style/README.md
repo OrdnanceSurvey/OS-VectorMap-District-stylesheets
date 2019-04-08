@@ -18,7 +18,7 @@ These are SLD files for OS VectorMap District in Geopackage format for use in Ge
 
   ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/Geopackage%20stylesheets/GeoServer%20stylesheets%20(SLD)/Backdrop%20Style/images/VMD_layer_order.png "Recommended layer order for OS VectorMap District")
   
-  Geopackage stylesheets/GeoServer stylesheets (SLD)/Backdrop Style/images/VMD_layer_order.png
+  Geopackage stylesheets/GeoServer stylesheets (SLD)/Backdrop Style/images/VMD_layer_order2.png
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 Although every feature is styled, for use as a general contextual map we have commented some of them out by default.
