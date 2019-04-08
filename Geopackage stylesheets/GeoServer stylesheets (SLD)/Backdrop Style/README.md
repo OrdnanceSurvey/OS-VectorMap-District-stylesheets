@@ -24,8 +24,8 @@ The scale denominators have been set to allow viewing between **1:7,000** and **
 
 Your map should look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/Geoserver%20stylesheets/GeoServer%20stylesheets%20SLD/Backdrop%20Style/images/VMD_BD_Screenshot.png "Screenshot of OS VectorMap District")
-
+  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/Geopackage%20stylesheets/GeoServer%20stylesheets%20SLD/Backdrop%20Style/images/VMD_BD_screenshot.png "Screenshot of OS VectorMap District")
+  
 ##Compatibility notes
 
 Although SLD is an open OGC standard, these SLDs do contain some extended code used by GeoServer, namely the ‘vendor option’ tags.
