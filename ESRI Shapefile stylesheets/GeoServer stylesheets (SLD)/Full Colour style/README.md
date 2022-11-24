@@ -24,7 +24,7 @@ The scale denominators have been set to allow viewing between **1:7,000** and **
 
 Your map should look similar to this: 
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/GML%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Full%20Colour%20style/images/VMD_BD_Screenshot.png "Screenshot of OS VectorMap District")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/f6fe16ab4ffc8fa1fefd17db98817575b280e1bc/ESRI%20Shapefile%20stylesheets/GeoServer%20stylesheets%20(SLD)/Full%20Colour%20style/images/VMD_FC_screenshot.png "Screenshot of OS VectorMap District")
 
 ##Compatibility notes
 
