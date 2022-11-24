@@ -28,7 +28,7 @@ Your map should look similar to this:
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/058402436d4d88f2d40cae076af34d38b89b1d3d/GML%20stylesheets/GeoServer%20stylesheets%20(SLD)/Backdrop%20style/images/VMD_BD_screenshot.png "Screenshot of OS VectorMap District")
 
-##Compatibility notes
+## Compatibility notes
 
 Although SLD is an open OGC standard, these SLDs do contain some extended code used by GeoServer, namely the ‘vendor option’ tags. Also, as aforementioned, the field names referenced in the SLDs are in full and in lowercase.
 
