@@ -1,6 +1,6 @@
 # OS VectorMap District Backdrop style
 
-These are QML files for OS VectorMap District in GML format for use in QGIS.
+These are **QML** files for OS VectorMap District in **GML** format for use in **QGIS**.
 
 *They have been designed to work with the data as it is supplied.*
 
@@ -42,9 +42,9 @@ Our QML files are created in QGIS 2.8.1 and we believe are compatible with any Q
 
 'Hidden' features can be activated either through the checkbox or by changing their opacity from 0 to 100 percent
 
-[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
-
 [More information about OS VectorMap District](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html)
+
+[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 ## Licence
 
