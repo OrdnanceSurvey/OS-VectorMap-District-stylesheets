@@ -1,6 +1,6 @@
 # OS VectorMap District Full Colour style
 
-These are SLD files for OS VectorMap District in SHP format for use in GeoServer.
+These are **SLD** files for OS VectorMap District in **SHP** format for use in **GeoServer**.
 
 ## Quick start guide
 
@@ -26,15 +26,15 @@ Your map should look similar to this:
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/f6fe16ab4ffc8fa1fefd17db98817575b280e1bc/ESRI%20Shapefile%20stylesheets/GeoServer%20stylesheets%20(SLD)/Full%20Colour%20style/images/VMD_FC_screenshot.png "Screenshot of OS VectorMap District")
 
-##Compatibility notes
+## Compatibility notes
 
 Although SLD is an open OGC standard, these SLDs do contain some extended code used by GeoServer, namely the ‘vendor option’ tags.
 
 ## Additional information
 
-[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
-
 [More information about OS VectorMap District](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html)
+
+[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 ## Licence
 
