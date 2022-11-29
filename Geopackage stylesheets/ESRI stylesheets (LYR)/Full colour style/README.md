@@ -1,6 +1,6 @@
 ﻿# OS VectorMap District Full colour style
 
-These are LYR files for OS VectorMap District in Geopackage format for use in ESRI ArcGIS.
+These are **LYR** files for OS VectorMap District in **Geopackage** format for use in **ESRI ArcGIS**.
 
 *They have been designed to work with the data as it is supplied.*
 
@@ -46,9 +46,9 @@ Spatial indexing of the data in ArcGIS will significantly improve performance (d
 
 ‘Hidden’ features can be activated through the relevant checkbox or by unchecking ‘Color is Null’ in the Color Selector dialogue
 
-[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
-
 [More information about OS VectorMap District](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html)
+
+[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 ## Licence
 
