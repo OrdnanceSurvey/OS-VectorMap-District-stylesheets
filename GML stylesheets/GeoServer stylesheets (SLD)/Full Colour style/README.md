@@ -1,6 +1,6 @@
 # OS VectorMap District Full Colour style
 
-These are SLD files for OS VectorMap District in GZ/GML format for use in GeoServer.
+These are **SLD** files for OS VectorMap District in **GZ/GML** format for use in **GeoServer**.
 
 *They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
 
@@ -34,9 +34,9 @@ Although SLD is an open OGC standard, these SLDs do contain some extended code u
 
 ## Additional information
 
-[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
-
 [More information about OS VectorMap District](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html)
+
+[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 ## Licence
 
