@@ -5,22 +5,22 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Backdrop style) - RailwayTrack</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>      
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
       <!-- RailwayTrack  -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Multi Track Railway - 1:16,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>Multi Track</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>16001</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>      
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#919191</CssParameter>
@@ -29,15 +29,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
         <Rule>
-          <Name>Multi Track Railway - 1:7,000 to 1:16,000</Name>
+          <Name>Multi Track Railway - 1:10,000 to 1:16,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>Multi Track</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>16000</MaxScaleDenominator>      
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>16000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#919191</CssParameter>
@@ -45,14 +45,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle>  
-      
+      </FeatureTypeStyle>
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Single Track Railway - 1:16,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>Single Track</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -66,14 +66,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
         <Rule>
-          <Name>Single Track Railway - 1:7,000 to 1:16,000</Name>
+          <Name>Single Track Railway - 1:10,000 to 1:16,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>Single Track</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>16000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
@@ -82,19 +82,19 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle>  
-      
+      </FeatureTypeStyle>
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Narrow Gauge Railway</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>Narrow Gauge</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>       
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#919191</CssParameter>
@@ -119,7 +119,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
