@@ -3,21 +3,21 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>OS VectorMap&#174; District (Backdrop style) - TidalWater</Name>
+    <Name>OS VectorMap&#174; District (Backdrop style) - Woodland</Name>
     <UserStyle>
       <Title>Product SLD - December 2022</Title>
       <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
 
-      <!-- TidalWater -->
+      <!-- Woodland -->
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>TidalWater</Name>
+          <Name>Woodland</Name>
           <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
-              <CssParameter name="fill">#E4F4F7</CssParameter>
+              <CssParameter name="fill">#E3F2E2</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
