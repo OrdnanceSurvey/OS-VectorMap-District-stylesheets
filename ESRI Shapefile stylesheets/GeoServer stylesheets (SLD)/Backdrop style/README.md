@@ -2,6 +2,8 @@
 
 These are **SLD** files for OS VectorMap District in **SHP format** for use in **GeoServer**.
 
+*They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
+
 ## Quick start guide
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/archive/master.zip) the contents of this repository
@@ -16,11 +18,11 @@ These are **SLD** files for OS VectorMap District in **SHP format** for use in *
 
 **6.**  To create OS VectorMap District in GeoServer you will need to create a Layer Group. If using the GUI then navigate to Layer Groups > Add new layer group > Add Layer and choose each layer in turn to create the following layer order:
 
-  ![Screenshot](https://raw.githubusercontent.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/master/ESRI%20Shapefile%20stylesheets/GeoServer%20stylesheets%20%28SLD%29/Backdrop%20style/images/VMD_layer_order.png "Recommended layer order for OS VectorMap District")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/260d9d05c118d84d676c645c8448e4ed6d3a31fc/ESRI%20Shapefile%20stylesheets/GeoServer%20stylesheets%20(SLD)/Backdrop%20style/images/VMD_layer_order2.png "Recommended layer order for OS VectorMap District")
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 Although every feature is styled, for use as a general contextual map we have commented some of them out by default.
-The scale denominators have been set to allow viewing between **1:7,000** and **1:25,000**, although this will vary slightly by resolution.
+The scale denominators have been set to allow viewing between **1:10,000** and **1:25,000**, although this will vary slightly by resolution.
 
 Your map should look similar to this: 
 
