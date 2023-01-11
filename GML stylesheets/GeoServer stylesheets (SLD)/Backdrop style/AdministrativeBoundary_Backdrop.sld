@@ -5,7 +5,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Backdrop style) - AdministrativeBoundary</Name>
     <UserStyle>
-      <Title>Product SLD - December 2022</Title>
+      <Title>Product SLD - December 2022 </Title>
       <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
 
       <!--  National Boundary  -->
