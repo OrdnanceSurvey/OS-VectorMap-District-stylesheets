@@ -24,7 +24,7 @@ These are **LYR** files for OS VectorMap District in **Geopackage** format for u
 
 **8.**  Your Table of Contents should now look like this. This is the recommended layer order: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/Geopackage%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/VMD_BD_layer_order.PNG "Recommended layer order for OS VectorMap District")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/20ffad2e8f93abcb348fe868c37ffde356563ad3/Geopackage%20stylesheets/ESRI%20stylesheets%20(LYR)/Backdrop%20style/images/VMD_layerorder_bg.PNG "Recommended layer order for OS VectorMap District")
 
 **9.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap District data > select the data that matches the layer, for example for Airport select XX_Airport.shp (XX being the 100km tile name) > select ‘Add’
 
