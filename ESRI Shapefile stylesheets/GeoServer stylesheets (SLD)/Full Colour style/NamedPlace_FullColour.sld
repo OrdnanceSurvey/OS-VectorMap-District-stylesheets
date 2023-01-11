@@ -5,22 +5,22 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Full-colour style) - NamedPlace</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>   
-      
-     <!-- Populated Places -->       
-      
+      <Title>Product SLD - November 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
+     <!-- Populated Places -->
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Populated Place XL name - 1:15,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25801</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Extra Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -29,7 +29,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -42,8 +42,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -69,11 +69,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25801</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -82,7 +82,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -95,8 +95,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -120,11 +120,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25801</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -133,7 +133,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -146,8 +146,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -173,11 +173,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25801</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -186,7 +186,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -199,8 +199,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -222,24 +222,24 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Populated Place M name - 1:7,000 to 1:15,000</Name>
+          <Name>Populated Place M name - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25801</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -252,8 +252,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -279,11 +279,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25801</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Small</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -292,7 +292,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>20000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -305,8 +305,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -328,24 +328,24 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Populated Place S name - 1:7,000 to 1:15,000</Name>
+          <Name>Populated Place S name - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25801</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Small</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -358,8 +358,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -379,19 +379,19 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         </Rule>
       </FeatureTypeStyle>
 
-     <!-- Landform -->       
-      
+     <!-- Landform -->
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Landform XL name - 1:15,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25802</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Extra Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -400,7 +400,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -413,8 +413,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -440,11 +440,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25802</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -453,7 +453,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -466,8 +466,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -493,11 +493,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25802</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -506,7 +506,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -519,8 +519,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -546,11 +546,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25802</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -559,7 +559,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>20000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -572,8 +572,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -595,24 +595,24 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Landform M name - 1:7,000 to 1:15,000</Name>
+          <Name>Landform M name - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25802</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -625,8 +625,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -644,7 +644,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="autoWrap">125</VendorOption>
           </TextSymbolizer>
         </Rule>
-      </FeatureTypeStyle> 
+      </FeatureTypeStyle>
 
       <FeatureTypeStyle>
         <Rule>
@@ -652,11 +652,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25802</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Small</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -665,7 +665,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>20000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -678,8 +678,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -705,11 +705,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25802</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Small</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -718,7 +718,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>20000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -731,8 +731,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -752,19 +752,19 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         </Rule>
       </FeatureTypeStyle>
 
-     <!-- Landcover -->       
-      
+     <!-- Landcover -->
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Landcover XL name - 1:15,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25805</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Extra Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -773,7 +773,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -786,8 +786,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -813,11 +813,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25805</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -826,7 +826,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -839,8 +839,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -866,11 +866,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25805</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -879,7 +879,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -892,8 +892,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -919,11 +919,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25805</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -932,7 +932,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -945,8 +945,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -968,24 +968,24 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Landcover M name - 1:7,000 to 1:15,000</Name>
+          <Name>Landcover M name - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25805</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -998,8 +998,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1025,11 +1025,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25805</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Small</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1038,7 +1038,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1051,8 +1051,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1074,24 +1074,24 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Landcover S name - 1:7,000 to 1:15,000</Name>
+          <Name>Landcover S name - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25805</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Small</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1104,8 +1104,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1125,19 +1125,19 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         </Rule>
       </FeatureTypeStyle>
 
-     <!-- Woodland Or Forest -->       
-      
+     <!-- Woodland Or Forest -->
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Woodland or Forest XL name - 1:15,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25803</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Extra Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1146,7 +1146,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1159,8 +1159,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1186,11 +1186,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25803</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1199,7 +1199,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1212,8 +1212,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1239,11 +1239,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25803</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1252,7 +1252,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1265,8 +1265,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1292,11 +1292,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25803</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1305,7 +1305,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1318,8 +1318,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1341,24 +1341,24 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Woodland or Forest M name - 1:7,000 to 1:15,000</Name>
+          <Name>Woodland or Forest M name - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25803</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1371,8 +1371,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1398,11 +1398,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25803</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Small</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1411,7 +1411,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>20000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1424,8 +1424,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1447,24 +1447,24 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Woodland or Forest S name - 1:7,000 to 1:15,000</Name>
+          <Name>Woodland or Forest S name - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25803</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Small</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1477,8 +1477,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1498,19 +1498,19 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         </Rule>
       </FeatureTypeStyle>
 
-     <!-- Hydrography -->       
-      
+     <!-- Hydrography -->
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Hydrography XL name - 1:15,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25804</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Extra Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1519,7 +1519,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1532,8 +1532,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Fill>
@@ -1552,11 +1552,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25804</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1565,7 +1565,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1578,8 +1578,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Fill>
@@ -1598,11 +1598,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25804</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Large</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1611,7 +1611,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1624,8 +1624,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Fill>
@@ -1644,11 +1644,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25804</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1657,7 +1657,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>20000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1670,8 +1670,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1693,24 +1693,24 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Hydrography M name - 1:7,000 to 1:15,000</Name>
+          <Name>Hydrography M name - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25804</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Medium</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1723,8 +1723,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1742,7 +1742,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="autoWrap">125</VendorOption>
           </TextSymbolizer>
         </Rule>
-      </FeatureTypeStyle>    
+      </FeatureTypeStyle>
 
       <FeatureTypeStyle>
         <Rule>
@@ -1750,11 +1750,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25804</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Small</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
@@ -1763,7 +1763,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>20000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1776,8 +1776,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1799,24 +1799,24 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Hydrography S name - 1:7,000 to 1:15,000</Name>
+          <Name>Hydrography S name - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:And>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FEATCODE</ogc:PropertyName>
+                <ogc:PropertyName>featcode</ogc:PropertyName>
                 <ogc:Literal>25804</ogc:Literal>
               </ogc:PropertyIsEqualTo>
               <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>FONTHEIGHT</ogc:PropertyName>
+                <ogc:PropertyName>fontheight</ogc:PropertyName>
                 <ogc:Literal>Small</ogc:Literal>
               </ogc:PropertyIsEqualTo>
             </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>HTMLNAME</ogc:PropertyName>
+              <ogc:PropertyName>distname</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1829,8 +1829,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Rotation>
-                  <ogc:PropertyName>ORIENTATIO</ogc:PropertyName>
-                </Rotation> 
+                  <ogc:PropertyName>orientatio</ogc:PropertyName>
+                </Rotation>
               </PointPlacement>
             </LabelPlacement>
             <Halo>
@@ -1848,7 +1848,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="autoWrap">120</VendorOption>
           </TextSymbolizer>
         </Rule>
-      </FeatureTypeStyle>    
+      </FeatureTypeStyle>
 
     </UserStyle>
   </NamedLayer>
