@@ -5,16 +5,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Backdrop style) - Building</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>
-      
-      <!-- Building -->       
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
+      <!-- Building -->
+
       <FeatureTypeStyle>
         <Rule>
-          <Name>Building polygon - 1:7,000 to 1:25,000</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>        
+          <Name>Building polygon - 1:10,000 to 1:25,000</Name>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#F2E6D4</CssParameter>
@@ -24,25 +24,25 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         <Rule>
           <Name>Building outline - 1:17,500 to 1:20,000</Name>
           <MinScaleDenominator>17501</MinScaleDenominator>
-          <MaxScaleDenominator>20000</MaxScaleDenominator>       
+          <MaxScaleDenominator>20000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#A6A5A4</CssParameter>
               <CssParameter name="stroke-width">0.108</CssParameter>
             </Stroke>
-          </LineSymbolizer>       
+          </LineSymbolizer>
         </Rule>
         <Rule>
-          <Name>Building outline - 1:7,000 to 1:17,500</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>17500</MaxScaleDenominator>       
+          <Name>Building outline - 1:10,000 to 1:17,500</Name>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>17500</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#969696</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
-          </LineSymbolizer>       
-        </Rule>  
+          </LineSymbolizer>
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
