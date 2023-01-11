@@ -2,6 +2,8 @@
 
 These are **SLD** files for OS VectorMap District in **Geopackage** format for use in **GeoServer**.
 
+*They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
+
 ## Quick start guide
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/archive/master.zip) the contents of this repository
@@ -20,7 +22,7 @@ These are **SLD** files for OS VectorMap District in **Geopackage** format for u
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 Although every feature is styled, for use as a general contextual map we have commented some of them out by default.
-The scale denominators have been set to allow viewing between **1:7,000** and **1:25,000**, although this will vary slightly by resolution.
+The scale denominators have been set to allow viewing between **1:10,000** and **1:25,000**, although this will vary slightly by resolution.
 
 Your map should look similar to this: 
 
