@@ -5,22 +5,22 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Full-colour style) - AdministrativeBoundary</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
       <!--  National Boundary  -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>National Boundary - 1:16,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>National</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>16001</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>      
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#575757</CssParameter>
@@ -28,18 +28,18 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke-dasharray">12 3 1 3</CssParameter>
               <CssParameter name="stroke-dashoffset">1.5</CssParameter>
             </Stroke>
-          </LineSymbolizer>    
+          </LineSymbolizer>
         </Rule>
         <Rule>
-          <Name>National Boundary - 1:7,000 to 1:16,000</Name>
+          <Name>National Boundary - 1:10,000 to 1:16,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>National</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>16000</MaxScaleDenominator>      
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>16000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#575757</CssParameter>
@@ -47,7 +47,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke-dasharray">18 4.5 1 4.5</CssParameter>
               <CssParameter name="stroke-dashoffset">2.25</CssParameter>
             </Stroke>
-          </LineSymbolizer>  
+          </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
 
@@ -58,12 +58,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>County Boundary - 1:16,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>County Or Region Or Island</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>16001</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>      
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#575757</CssParameter>
@@ -71,18 +71,18 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke-dasharray">7 8 1 8</CssParameter>
               <CssParameter name="stroke-dashoffset">4</CssParameter>
             </Stroke>
-          </LineSymbolizer>      
+          </LineSymbolizer>
         </Rule>
         <Rule>
-          <Name>County Boundary - 1:7,000 to 1:16,000</Name>
+          <Name>County Boundary - 1:10,000 to 1:16,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>County Or Region Or Island</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>16000</MaxScaleDenominator>      
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>16000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#575757</CssParameter>
@@ -90,9 +90,9 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke-dasharray">10 12 1 12</CssParameter>
               <CssParameter name="stroke-dashoffset">6</CssParameter>
             </Stroke>
-          </LineSymbolizer>    
+          </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle> 
+      </FeatureTypeStyle>
 -->
 
       <!-- District Boundary (Currently commented out to turn off) -->
@@ -102,12 +102,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>District Boundary - 1:16,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>District Or London Borough</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>16001</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>      
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#575757</CssParameter>
@@ -115,18 +115,18 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke-dasharray">7 5</CssParameter>
               <CssParameter name="stroke-dashoffset">2.5</CssParameter>
             </Stroke>
-          </LineSymbolizer>       
+          </LineSymbolizer>
         </Rule>
         <Rule>
-          <Name>District Boundary - 1:7,000 to 1:16,000</Name>
+          <Name>District Boundary - 1:10,000 to 1:16,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>District Or London Borough</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>16000</MaxScaleDenominator>      
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>16000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#575757</CssParameter>
@@ -134,7 +134,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke-dasharray">10.5 7.5</CssParameter>
               <CssParameter name="stroke-dashoffset">2.75</CssParameter>
             </Stroke>
-          </LineSymbolizer>    
+          </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
 -->
@@ -146,12 +146,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Parish Boundary - 1:16,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>Parish Or Community</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <MinScaleDenominator>16001</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>      
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#575757</CssParameter>
@@ -159,18 +159,18 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke-dasharray">1 6</CssParameter>
               <CssParameter name="stroke-dashoffset">3</CssParameter>
             </Stroke>
-          </LineSymbolizer>       
+          </LineSymbolizer>
         </Rule>
         <Rule>
-          <Name>Parish Boundary - 1:7,000 to 1:16,000</Name>
+          <Name>Parish Boundary - 1:10,000 to 1:16,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CLASSIFICA</ogc:PropertyName>
+              <ogc:PropertyName>classifica</ogc:PropertyName>
               <ogc:Literal>Parish Or Community</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>16000</MaxScaleDenominator>        
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>16000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#575757</CssParameter>
@@ -178,8 +178,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke-dasharray">1.5 9</CssParameter>
               <CssParameter name="stroke-dashoffset">4.5</CssParameter>
             </Stroke>
-          </LineSymbolizer>   
-        </Rule> 
+          </LineSymbolizer>
+        </Rule>
       </FeatureTypeStyle>
 -->
 
