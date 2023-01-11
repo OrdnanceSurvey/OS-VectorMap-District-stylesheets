@@ -5,16 +5,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Full-colour style) - SurfaceWater_Area</Name>
     <UserStyle>
-      <Title>Product SLD - March 2019</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>      
-      
-      <!-- SurfaceWater_Area -->       
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
+      <!-- SurfaceWater_Area -->
+
       <FeatureTypeStyle>
         <Rule>
-          <Name>SurfaceWater_Area - 1:7,000 to 1:25,000</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>        
+          <Name>SurfaceWater_Area - 1:10,000 to 1:25,000</Name>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#D5F4F8</CssParameter>
@@ -22,15 +22,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PolygonSymbolizer>
         </Rule>
         <Rule>
-          <Name>SurfaceWater_Area outline - 1:7,000 to 1:17,500</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>17500</MaxScaleDenominator>       
+          <Name>SurfaceWater_Area outline - 1:10,000 to 1:17,500</Name>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>17500</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#00A9CA</CssParameter>
               <CssParameter name="stroke-width">1</CssParameter>
             </Stroke>
-          </LineSymbolizer>       
+          </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
     </UserStyle>
