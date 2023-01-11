@@ -5,16 +5,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Full-colour style) - TidalWater</Name>
     <UserStyle>
-      <Title>Product SLD - March 2019</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>     
-      
-      <!-- TidalWater -->       
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
+      <!-- TidalWater -->
+
       <FeatureTypeStyle>
         <Rule>
           <Name>TidalWater</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>        
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#D5F4F8</CssParameter>
