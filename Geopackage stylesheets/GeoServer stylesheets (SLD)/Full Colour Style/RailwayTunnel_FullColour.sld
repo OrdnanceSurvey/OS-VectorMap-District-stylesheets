@@ -5,9 +5,9 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Full-colour style) - RailwayTunnel</Name>
     <UserStyle>
-      <Title>Product SLD - March 2019</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>     
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
       <FeatureTypeStyle>
         <Rule>
           <Name>RailwayTunnel - 1:16,000 to 1:25,000</Name>
@@ -23,8 +23,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
         <Rule>
-          <Name>RailwayTunnel - 1:7,000 to 1:16,000</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <Name>RailwayTunnel - 1:10,000 to 1:16,000</Name>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>16000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
