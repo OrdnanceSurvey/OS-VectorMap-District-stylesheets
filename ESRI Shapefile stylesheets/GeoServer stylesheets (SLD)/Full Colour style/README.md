@@ -22,7 +22,7 @@ These are **SLD** files for OS VectorMap District in **SHP** format for use in *
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 Although every feature is styled, for use as a general contextual map we have commented some of them out by default.
-The scale denominators have been set to allow viewing between **1:7,000** and **1:25,000**, although this will vary slightly by resolution.
+The scale denominators have been set to allow viewing between **1:10,000** and **1:25,000**, although this will vary slightly by resolution.
 
 Your map should look similar to this: 
 
