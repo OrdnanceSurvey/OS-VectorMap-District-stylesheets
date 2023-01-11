@@ -5,16 +5,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Full-colour style) - Glasshouse</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>  
-      
-      <!-- Glasshouse -->       
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
+      <!-- Glasshouse -->
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Glasshouse - 1:16,000 to 1:25,000</Name>
           <MinScaleDenominator>16001</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>       
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <GraphicFill>
@@ -36,12 +36,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke">#799F79</CssParameter>
               <CssParameter name="stroke-width">0.108</CssParameter>
             </Stroke>
-          </LineSymbolizer>        
+          </LineSymbolizer>
         </Rule>
         <Rule>
-          <Name>Glasshouse - 1:7,000 to 1:16,000</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>16000</MaxScaleDenominator>       
+          <Name>Glasshouse - 1:10,000 to 1:16,000</Name>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>16000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <GraphicFill>
@@ -63,8 +63,8 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <CssParameter name="stroke">#799F79</CssParameter>
               <CssParameter name="stroke-width">0.164</CssParameter>
             </Stroke>
-          </LineSymbolizer>         
-        </Rule>  
+          </LineSymbolizer>
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
