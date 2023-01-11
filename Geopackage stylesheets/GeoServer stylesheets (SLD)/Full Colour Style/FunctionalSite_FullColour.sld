@@ -5,17 +5,17 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Full-colour style) - Functional Site</Name>
     <UserStyle>
-      <Title>Product SLD - March 2019</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
       <!-- Air Transport -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>AirTransport - 1:17,000 to 1:25,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25255</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -32,7 +32,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>distinctiveName</ogc:PropertyName>
+              <ogc:PropertyName>distinctivename</ogc:PropertyName>
               <ogc:Literal></ogc:Literal>
             </Label>
             <Font>
@@ -69,7 +69,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>AirTransport - 1:10,000 to 1:17,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25255</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
@@ -86,7 +86,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>distinctiveName</ogc:PropertyName>
+              <ogc:PropertyName>distinctivename</ogc:PropertyName>
               <ogc:Literal></ogc:Literal>
             </Label>
             <Font>
@@ -119,68 +119,27 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="autoWrap">24</VendorOption>
           </TextSymbolizer>
         </Rule>
-        <Rule>
-          <Name>AirTransport - 1:7,000 to 1:10,000</Name>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
-              <ogc:Literal>25255</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>10000</MaxScaleDenominator>
-          <TextSymbolizer>
-            <Label>
-              <ogc:PropertyName>distinctiveName</ogc:PropertyName>
-              <ogc:Literal></ogc:Literal>
-            </Label>
-            <Font>
-              <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">19</CssParameter>
-            </Font>
-            <LabelPlacement>
-              <PointPlacement>
-                <AnchorPoint>
-                  <AnchorPointX>0.5</AnchorPointX>
-                  <AnchorPointY>0.5</AnchorPointY>
-                </AnchorPoint>
-              </PointPlacement>
-            </LabelPlacement>
-            <Halo>
-              <Radius>2.5</Radius>
-              <Fill>
-                <CssParameter name="fill">#FFFFFF</CssParameter>
-              </Fill>
-            </Halo>
-            <Fill>
-              <CssParameter name="fill">#000000</CssParameter>
-            </Fill>
-            <Priority>1000</Priority>
-            <VendorOption name="spaceAround">2</VendorOption>
-            <VendorOption name="autoWrap">24</VendorOption>
-          </TextSymbolizer>
-        </Rule>
       </FeatureTypeStyle>
 
       <!-- Others -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Education Facility</Name>
           <ogc:Filter>
           <ogc:Or>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25250</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25256</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Or>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>11000</MaxScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
@@ -195,12 +154,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Medical Care</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25252</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>11000</MaxScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
@@ -215,12 +174,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Leisure Or Sports Centre</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25254</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>11000</MaxScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
@@ -235,12 +194,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Place Of Worship</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25253</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>11000</MaxScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
@@ -255,12 +214,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Police Station</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25251</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>11000</MaxScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
@@ -275,12 +234,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Water Transport</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25257</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>11000</MaxScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
@@ -295,12 +254,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Road Transport</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25258</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>11000</MaxScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
@@ -315,12 +274,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <Name>Road Services</Name>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>featureCode</ogc:PropertyName>
+              <ogc:PropertyName>featurecode</ogc:PropertyName>
               <ogc:Literal>25259</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>11000</MaxScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>13000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <ExternalGraphic>
@@ -330,7 +289,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <Size>28</Size>
             </Graphic>
           </PointSymbolizer>
-        </Rule>   
+        </Rule>
       </FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>
