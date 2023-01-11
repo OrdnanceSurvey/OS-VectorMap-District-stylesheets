@@ -5,15 +5,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Full-colour style) - SurfaceWater_Line</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>      
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
       <!-- SurfaceWater_Line -->
-      
+
       <FeatureTypeStyle>
         <Rule>
-          <Name>SurfaceWater_Line - 1:7,000 to 1:17,500</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <Name>SurfaceWater_Line - 1:10,000 to 1:17,500</Name>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>17500</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
