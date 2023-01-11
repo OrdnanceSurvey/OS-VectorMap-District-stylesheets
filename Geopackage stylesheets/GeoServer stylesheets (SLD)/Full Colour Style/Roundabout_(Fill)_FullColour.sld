@@ -5,11 +5,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Full-colour style) - Roundabout</Name>
     <UserStyle>
-      <Title>Product SLD - March 2019</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2019.</Abstract>    
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
       <!-- Roundabout -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Local Street Roundabout</Name>
@@ -19,7 +19,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Literal>Local Street</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>17500</MaxScaleDenominator>
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
@@ -59,7 +59,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Literal>Minor Road</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>17500</MaxScaleDenominator>
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
@@ -99,7 +99,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Literal>B Road</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>17500</MaxScaleDenominator>
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
@@ -139,7 +139,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Literal>A Road</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>17500</MaxScaleDenominator>
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
@@ -179,7 +179,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Literal>Primary Road</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>17500</MaxScaleDenominator>
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
@@ -209,7 +209,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </PointSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-           
+
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
