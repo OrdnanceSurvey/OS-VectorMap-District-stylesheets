@@ -3,18 +3,19 @@
 xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <Name>OS VectorMap&#174; District (Full-colour style) - SpotHeight</Name>
+    <Name>OS VectorMap&#174; District (Full-colour style) - Spotheight</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>            
-      
-      <!-- SpotHeight -->       
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
+      <!-- Spotheight -->
+
       <FeatureTypeStyle>
+        <!--
         <Rule>
-          <Name>SpotHeight - 1:7,000 to 1:9,000</Name>
+          <Name>Spotheight - 1:7,000 to 1:10,000</Name>
           <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>9000</MaxScaleDenominator>
+          <MaxScaleDenominator>10000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -64,9 +65,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <Priority>1000</Priority>
           </TextSymbolizer>
         </Rule>
+      -->
         <Rule>
-          <Name>SpotHeight - 1:9,000 to 1:14,000</Name>
-          <MinScaleDenominator>9001</MinScaleDenominator>
+          <Name>Spotheight - 1:10,000 to 1:14,000</Name>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>14000</MaxScaleDenominator>
           <PointSymbolizer>
             <Graphic>
