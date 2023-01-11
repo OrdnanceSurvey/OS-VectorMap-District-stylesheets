@@ -5,16 +5,16 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Full-colour style) - ElectricityTransmissionLine</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
       <!-- ElectricityTransmissionLine -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>ElectricityTransmissionLine - 1:16,000 to 1:25,000</Name>
           <MinScaleDenominator>16001</MinScaleDenominator>
-          <MaxScaleDenominator>25000</MaxScaleDenominator>      
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#B2B8AD</CssParameter>
@@ -24,9 +24,9 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
         <Rule>
-          <Name>ElectricityTransmissionLine - 1:7,000 to 1:16,000</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>16000</MaxScaleDenominator>      
+          <Name>ElectricityTransmissionLine - 1:10,000 to 1:16,000</Name>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>16000</MaxScaleDenominator>
           <LineSymbolizer>
             <Stroke>
               <CssParameter name="stroke">#B2B8AD</CssParameter>
