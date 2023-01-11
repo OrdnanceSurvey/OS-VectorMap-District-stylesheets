@@ -5,18 +5,18 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Backdrop style) - Road</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>    
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
       <!--  Road Casing - Level 0 -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Road Casing - Dual Carriageway</Name>
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:Or>
@@ -43,12 +43,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:Or>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#969696</CssParameter>
-              <CssParameter name="stroke-width">25.5</CssParameter>  
+              <CssParameter name="stroke-width">25.5</CssParameter>
               <CssParameter name="stroke-linecap">butt</CssParameter>
               <CssParameter name="stroke-linejoin">round</CssParameter>
             </Stroke>
@@ -59,7 +59,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:Or>
@@ -98,12 +98,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:Or>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#969696</CssParameter>
-              <CssParameter name="stroke-width">17</CssParameter>  
+              <CssParameter name="stroke-width">17</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
               <CssParameter name="stroke-linejoin">round</CssParameter>
             </Stroke>
@@ -112,14 +112,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!-- Single Carriageway Road Fill - Level 0 -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Local Road Fill - Single Carriageway</Name>
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:Or>
@@ -138,7 +138,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -157,7 +157,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -170,7 +170,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -189,7 +189,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -202,7 +202,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -214,14 +214,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Motorway Fill - Single Carriageway</Name>
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -234,7 +234,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -253,7 +253,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -266,7 +266,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -277,7 +277,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle> 
+      </FeatureTypeStyle>
 
       <FeatureTypeStyle>
         <Rule>
@@ -285,7 +285,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -298,7 +298,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -317,7 +317,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -330,19 +330,19 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#A3D2A9</CssParameter>
-              <CssParameter name="stroke-width">13</CssParameter> 
+              <CssParameter name="stroke-width">13</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
               <CssParameter name="stroke-linejoin">round</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Dual Carriageway Road Fills - Level 0 -->
 
       <FeatureTypeStyle>
@@ -351,7 +351,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -364,7 +364,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -383,7 +383,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -396,7 +396,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -415,7 +415,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -428,7 +428,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -447,7 +447,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -460,12 +460,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#A3D2A9</CssParameter>
-              <CssParameter name="stroke-width">21.5</CssParameter> 
+              <CssParameter name="stroke-width">21.5</CssParameter>
               <CssParameter name="stroke-linecap">butt</CssParameter>
               <CssParameter name="stroke-linejoin">round</CssParameter>
             </Stroke>
@@ -479,7 +479,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -492,7 +492,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -505,13 +505,13 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         </Rule>
       </FeatureTypeStyle>
 
-      <FeatureTypeStyle>
+            <FeatureTypeStyle>
         <Rule>
           <Name>Local Road Fill - Single Carriageway</Name>
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:Or>
@@ -530,7 +530,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -549,7 +549,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -562,7 +562,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -581,7 +581,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -594,7 +594,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -606,14 +606,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Motorway Fill - Single Carriageway</Name>
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -626,7 +626,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -645,7 +645,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -658,7 +658,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -669,7 +669,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Stroke>
           </LineSymbolizer>
         </Rule>
-      </FeatureTypeStyle> 
+      </FeatureTypeStyle>
 
       <FeatureTypeStyle>
         <Rule>
@@ -677,7 +677,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -690,7 +690,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -709,7 +709,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -722,19 +722,19 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#A3D2A9</CssParameter>
-              <CssParameter name="stroke-width">13</CssParameter> 
+              <CssParameter name="stroke-width">13</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
               <CssParameter name="stroke-linejoin">round</CssParameter>
             </Stroke>
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Dual Carriageway Road Fills - Level 0 -->
 
       <FeatureTypeStyle>
@@ -743,7 +743,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -756,7 +756,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -775,7 +775,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -788,7 +788,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -807,7 +807,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -820,7 +820,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -839,7 +839,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -852,12 +852,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#A3D2A9</CssParameter>
-              <CssParameter name="stroke-width">21.5</CssParameter> 
+              <CssParameter name="stroke-width">21.5</CssParameter>
               <CssParameter name="stroke-linecap">butt</CssParameter>
               <CssParameter name="stroke-linejoin">round</CssParameter>
             </Stroke>
@@ -871,7 +871,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -884,7 +884,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -896,7 +896,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </LineSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
       <!-- Assumed Central Reservations for Dual Carriageways - Level 0-->
 
       <FeatureTypeStyle>
@@ -905,7 +905,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -914,7 +914,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>17500</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -933,7 +933,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -942,7 +942,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>17500</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
@@ -961,7 +961,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -970,11 +970,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>17500</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
-              <CssParameter name="stroke">#969696</CssParameter>
+              <CssParameter name="stroke">#FFFFFF</CssParameter>
               <CssParameter name="stroke-width">1.1</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
               <CssParameter name="stroke-linejoin">round</CssParameter>
@@ -989,7 +989,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -998,12 +998,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#FFFFFF</CssParameter>
-              <CssParameter name="stroke-width">2.1</CssParameter> 
+              <CssParameter name="stroke-width">2.1</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
               <CssParameter name="stroke-linejoin">round</CssParameter>
             </Stroke>
@@ -1017,7 +1017,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <ogc:Filter>
           <ogc:And>
             <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>drawlevel</ogc:PropertyName>
+              <ogc:PropertyName>drawLevel</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
             <ogc:PropertyIsEqualTo>
@@ -1026,12 +1026,12 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </ogc:PropertyIsEqualTo>
           </ogc:And>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <LineSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Stroke>
               <CssParameter name="stroke">#FFFFFF</CssParameter>
-              <CssParameter name="stroke-width">2.5</CssParameter> 
+              <CssParameter name="stroke-width">2.5</CssParameter>
               <CssParameter name="stroke-linecap">round</CssParameter>
               <CssParameter name="stroke-linejoin">round</CssParameter>
             </Stroke>
@@ -1040,7 +1040,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
       </FeatureTypeStyle>
 
       <!-- Road Names and Numbers -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Motorway Label - 1:7,00 to 1:15,000</Name>
@@ -1050,7 +1050,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Literal>Motorway, Collapsed Dual Carriageway</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
@@ -1081,14 +1081,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                  <WellKnownName>square</WellKnownName>
                  <Fill>
                   <CssParameter name="fill">#36B1C9</CssParameter>
-                 </Fill>      
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#36B1C9</CssParameter>
                   <CssParameter name="stroke-width">4</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
+                 </Stroke>
+                </Mark>
               <Size>10</Size>
             </Graphic>
             <VendorOption name="spaceAround">3</VendorOption>
@@ -1103,21 +1103,21 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Minor Road Label - 1:7,000 to 1:15,000</Name>
+          <Name>Minor Road Label - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>classification</ogc:PropertyName>
               <ogc:Literal>Minor Road*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
               <ogc:Function name="strConcat">
                 <ogc:PropertyName>distinctivename</ogc:PropertyName>
                 <ogc:Literal>&#160;&#160;&#160;</ogc:Literal>
-              </ogc:Function>                  
+              </ogc:Function>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1137,28 +1137,28 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxAngleDelta">37</VendorOption>
             <VendorOption name="maxDisplacement">1200</VendorOption>
-            <VendorOption name="repeat">1600</VendorOption>   
-          </TextSymbolizer>                    
+            <VendorOption name="repeat">1600</VendorOption>
+          </TextSymbolizer>
         </Rule>
-      </FeatureTypeStyle> 
+      </FeatureTypeStyle>
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>B Road Label - 1:7,000 to 1:15,000</Name>
+          <Name>B Road Label - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>classification</ogc:PropertyName>
               <ogc:Literal>B Road*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
               <ogc:Function name="strConcat">
                 <ogc:PropertyName>distinctivename</ogc:PropertyName>
                 <ogc:Literal>&#160;&#160;</ogc:Literal>
-              </ogc:Function>                  
+              </ogc:Function>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1179,11 +1179,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxAngleDelta">37</VendorOption>
             <VendorOption name="maxDisplacement">900</VendorOption>
-            <VendorOption name="repeat">1300</VendorOption>   
-          </TextSymbolizer>                    
+            <VendorOption name="repeat">1300</VendorOption>
+          </TextSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>roadnumber</ogc:PropertyName>                
+              <ogc:PropertyName>roadnumber</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1210,14 +1210,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                  <WellKnownName>square</WellKnownName>
                  <Fill>
                   <CssParameter name="fill">#EDBA91</CssParameter>
-                 </Fill>      
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#EDBA91</CssParameter>
                   <CssParameter name="stroke-width">4</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
+                 </Stroke>
+                </Mark>
               <Size>10</Size>
             </Graphic>
             <VendorOption name="spaceAround">3</VendorOption>
@@ -1232,21 +1232,21 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>A Road Label - 1:7,000 to 1:15,000</Name>
+          <Name>A Road Label - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>classification</ogc:PropertyName>
               <ogc:Literal>A Road*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
               <ogc:Function name="strConcat">
                 <ogc:PropertyName>distinctivename</ogc:PropertyName>
                 <ogc:Literal>&#160;</ogc:Literal>
-              </ogc:Function>                  
+              </ogc:Function>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1267,11 +1267,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxAngleDelta">37</VendorOption>
             <VendorOption name="maxDisplacement">900</VendorOption>
-            <VendorOption name="repeat">1300</VendorOption>   
-          </TextSymbolizer>                    
+            <VendorOption name="repeat">1300</VendorOption>
+          </TextSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>roadnumber</ogc:PropertyName>                
+              <ogc:PropertyName>roadnumber</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1298,14 +1298,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                  <WellKnownName>square</WellKnownName>
                  <Fill>
                   <CssParameter name="fill">#EB94B1</CssParameter>
-                 </Fill>      
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#EB94B1</CssParameter>
                   <CssParameter name="stroke-width">4</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
+                 </Stroke>
+                </Mark>
               <Size>10</Size>
             </Graphic>
             <VendorOption name="spaceAround">3</VendorOption>
@@ -1320,18 +1320,18 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
 
       <FeatureTypeStyle>
         <Rule>
-          <Name>Primary Road Label - 1:7,000 to 1:15,000</Name>
+          <Name>Primary Road Label - 1:10,000 to 1:15,000</Name>
           <ogc:Filter>
             <ogc:PropertyIsLike  wildCard="*" singleChar="." escape="!">
               <ogc:PropertyName>classification</ogc:PropertyName>
               <ogc:Literal>Primary Road*</ogc:Literal>
             </ogc:PropertyIsLike>
           </ogc:Filter>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>15000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>distinctivename</ogc:PropertyName>                 
+              <ogc:PropertyName>distinctivename</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1352,11 +1352,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxAngleDelta">37</VendorOption>
             <VendorOption name="maxDisplacement">850</VendorOption>
-            <VendorOption name="repeat">1250</VendorOption>   
-          </TextSymbolizer>                    
+            <VendorOption name="repeat">1250</VendorOption>
+          </TextSymbolizer>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>roadnumber</ogc:PropertyName>                
+              <ogc:PropertyName>roadnumber</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1383,14 +1383,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                  <WellKnownName>square</WellKnownName>
                  <Fill>
                   <CssParameter name="fill">#88BF8F</CssParameter>
-                 </Fill>      
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#88BF8F</CssParameter>
                   <CssParameter name="stroke-width">4</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
+                 </Stroke>
+                </Mark>
               <Size>43.65</Size>
             </Graphic>
             <VendorOption name="spaceAround">3</VendorOption>
@@ -1443,14 +1443,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                  <WellKnownName>square</WellKnownName>
                  <Fill>
                   <CssParameter name="fill">#36B1C9</CssParameter>
-                 </Fill>      
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#36B1C9</CssParameter>
                   <CssParameter name="stroke-width">4</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
+                 </Stroke>
+                </Mark>
               <Size>43.65</Size>
             </Graphic>
             <VendorOption name="spaceAround">3</VendorOption>
@@ -1479,7 +1479,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Function name="strConcat">
                 <ogc:PropertyName>distinctivename</ogc:PropertyName>
                 <ogc:Literal>&#160;&#160;&#160;</ogc:Literal>
-              </ogc:Function>                  
+              </ogc:Function>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1499,10 +1499,10 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxAngleDelta">37</VendorOption>
             <VendorOption name="maxDisplacement">1400</VendorOption>
-            <VendorOption name="repeat">1800</VendorOption>   
-          </TextSymbolizer>                    
+            <VendorOption name="repeat">1800</VendorOption>
+          </TextSymbolizer>
         </Rule>
-      </FeatureTypeStyle> 
+      </FeatureTypeStyle>
 
       <FeatureTypeStyle>
         <Rule>
@@ -1520,7 +1520,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Function name="strConcat">
                 <ogc:PropertyName>distinctivename</ogc:PropertyName>
                 <ogc:Literal>&#160;&#160;</ogc:Literal>
-              </ogc:Function>                  
+              </ogc:Function>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1540,11 +1540,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxAngleDelta">37</VendorOption>
             <VendorOption name="maxDisplacement">1100</VendorOption>
-            <VendorOption name="repeat">1500</VendorOption>   
-          </TextSymbolizer>                    
+            <VendorOption name="repeat">1500</VendorOption>
+          </TextSymbolizer>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>roadnumber</ogc:PropertyName>                
+              <ogc:PropertyName>roadnumber</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1571,14 +1571,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                  <WellKnownName>square</WellKnownName>
                  <Fill>
                   <CssParameter name="fill">#EDBA91</CssParameter>
-                 </Fill>      
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#EDBA91</CssParameter>
                   <CssParameter name="stroke-width">4</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
+                 </Stroke>
+                </Mark>
               <Size>43.65</Size>
             </Graphic>
             <VendorOption name="spaceAround">3</VendorOption>
@@ -1607,7 +1607,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
               <ogc:Function name="strConcat">
                 <ogc:PropertyName>distinctivename</ogc:PropertyName>
                 <ogc:Literal>&#160;</ogc:Literal>
-              </ogc:Function>                  
+              </ogc:Function>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1628,11 +1628,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxAngleDelta">37</VendorOption>
             <VendorOption name="maxDisplacement">1100</VendorOption>
-            <VendorOption name="repeat">1500</VendorOption>   
-          </TextSymbolizer>                    
+            <VendorOption name="repeat">1500</VendorOption>
+          </TextSymbolizer>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>roadnumber</ogc:PropertyName>                
+              <ogc:PropertyName>roadnumber</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1659,14 +1659,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                  <WellKnownName>square</WellKnownName>
                  <Fill>
                   <CssParameter name="fill">#EB94B1</CssParameter>
-                 </Fill>      
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#EB94B1</CssParameter>
                   <CssParameter name="stroke-width">4</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
+                 </Stroke>
+                </Mark>
               <Size>43.65</Size>
             </Graphic>
             <VendorOption name="spaceAround">3</VendorOption>
@@ -1692,7 +1692,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>distinctivename</ogc:PropertyName>                 
+              <ogc:PropertyName>distinctivename</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1713,11 +1713,11 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             <VendorOption name="group">yes</VendorOption>
             <VendorOption name="maxAngleDelta">37</VendorOption>
             <VendorOption name="maxDisplacement">1100</VendorOption>
-            <VendorOption name="repeat">1450</VendorOption>   
-          </TextSymbolizer>                    
+            <VendorOption name="repeat">1450</VendorOption>
+          </TextSymbolizer>
           <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Label>
-              <ogc:PropertyName>roadnumber</ogc:PropertyName>                
+              <ogc:PropertyName>roadnumber</ogc:PropertyName>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
@@ -1744,14 +1744,14 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                  <WellKnownName>square</WellKnownName>
                  <Fill>
                   <CssParameter name="fill">#88BF8F</CssParameter>
-                 </Fill>      
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#88BF8F</CssParameter>
                   <CssParameter name="stroke-width">4</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
+                 </Stroke>
+                </Mark>
               <Size>43.65</Size>
             </Graphic>
             <VendorOption name="spaceAround">3</VendorOption>
@@ -1763,7 +1763,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-      
+
     </UserStyle>
   </NamedLayer>
-</StyledLayerDescriptor>
+  </StyledLayerDescriptor>
