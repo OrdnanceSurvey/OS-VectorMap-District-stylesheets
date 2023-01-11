@@ -5,15 +5,15 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Backdrop style) - Roundabout</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>    
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
       <!-- Roundabout -->
-      
+
       <FeatureTypeStyle>
         <Rule>
           <Name>Roundabout Casing</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>17500</MaxScaleDenominator>
           <PointSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
             <Graphic>
