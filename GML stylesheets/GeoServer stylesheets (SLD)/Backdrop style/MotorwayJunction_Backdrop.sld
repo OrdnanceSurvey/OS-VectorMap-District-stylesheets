@@ -5,49 +5,42 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
   <NamedLayer>
     <Name>OS VectorMap&#174; District (Backdrop style) - MotorwayJunction</Name>
     <UserStyle>
-      <Title>Product SLD - September 2015</Title>
-      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2015.</Abstract>      
-      
-      <!-- MotorwayJunction -->
-      
+      <Title>Product SLD - December 2022</Title>
+      <Abstract>OS VectorMap&#174; District. Ordnance Survey. &#169; Crown copyright 2022.</Abstract>
+
+      <!-- Motorway Junction Numbers -->
+
       <FeatureTypeStyle>
         <Rule>
-          <Name>MotorwayJunction - 1:7,000 to 1:15,000</Name>
-          <MinScaleDenominator>7000</MinScaleDenominator>
-          <MaxScaleDenominator>15000</MaxScaleDenominator>
-          <PointSymbolizer>
-            <Geometry>
-               <ogc:Function name="offset">
-                  <ogc:PropertyName>the_geom</ogc:PropertyName>
-                  <ogc:Literal>1.5</ogc:Literal>
-                  <ogc:Literal>-1.7</ogc:Literal>
-               </ogc:Function>
-            </Geometry>
-            <Graphic>
-              <Mark>
-                 <WellKnownName>circle</WellKnownName>
-                 <Fill>
-                  <CssParameter name="fill">#000000</CssParameter>
-                  <CssParameter name="fill-opacity">0.1</CssParameter>
-                 </Fill>    
-                 <Stroke>
-                  <CssParameter name="stroke">#000000</CssParameter>
-                  <CssParameter name="stroke-width">5</CssParameter>
-                  <CssParameter name="stroke-linejoin">round</CssParameter>
-                  <CssParameter name="stroke-linecap">round</CssParameter>
-                  <CssParameter name="stroke-opacity">0.1</CssParameter>
-                 </Stroke>                    
-                </Mark>                  
-              <Size>11</Size>
-            </Graphic>
-          </PointSymbolizer>
+          <Name>Motorway Simple Junction - 1:10,000 to 1:25,000</Name>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsLessThan>
+                <ogc:Function name="strLength">
+                  <ogc:PropertyName>junctionnumber</ogc:PropertyName>
+                </ogc:Function>
+                <ogc:Literal>10</ogc:Literal>
+              </ogc:PropertyIsLessThan>
+              <ogc:PropertyIsLike wildCard="*" singleChar="." escape="!">
+                <ogc:PropertyName>junctionnumber</ogc:PropertyName>
+                <ogc:Literal>*T*</ogc:Literal>
+              </ogc:PropertyIsLike>
+            </ogc:Or>
+          </ogc:Filter>
+          <MinScaleDenominator>10000</MinScaleDenominator>
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
           <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>junctionnumber</ogc:PropertyName>
+                <ogc:Function name="strReplace">
+                <ogc:PropertyName>junctionnumber</ogc:PropertyName>
+                <ogc:Literal>M.*J</ogc:Literal>
+                <ogc:Literal> </ogc:Literal>
+                <ogc:Literal>true</ogc:Literal>
+                </ogc:Function>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">10.5</CssParameter>
+              <CssParameter name="font-size">13</CssParameter>
               <CssParameter name="font-weight">bold</CssParameter>
             </Font>
             <LabelPlacement>
@@ -57,44 +50,85 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Displacement>
-                  <DisplacementX>0</DisplacementX>
-                  <DisplacementY>1</DisplacementY>
+                  <DisplacementX>18</DisplacementX>
+                  <DisplacementY>35</DisplacementY>
                 </Displacement>
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#36B1C9</CssParameter>
+              <CssParameter name="fill">#FFFFFF</CssParameter>
             </Fill>
             <Graphic>
                 <Mark>
-                 <WellKnownName>circle</WellKnownName>
+                 <WellKnownName>square</WellKnownName>
                  <Fill>
-                  <CssParameter name="fill">#FFFFFF</CssParameter>
-                 </Fill>      
+                  <CssParameter name="fill">#36B1C9</CssParameter>
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#FFFFFF</CssParameter>
-                  <CssParameter name="stroke-width">4</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
-              <Size>10</Size>
+                 </Stroke>
+                </Mark>
+              <Size>13</Size>
             </Graphic>
             <VendorOption name="graphic-resize">stretch</VendorOption>
-            <VendorOption name="graphic-margin">2</VendorOption>
+            <VendorOption name="graphic-margin">4</VendorOption>
           </TextSymbolizer>
         </Rule>
         <Rule>
-          <Name>MotorwayJunction - 1:15,000 to 1:25,000</Name>
-          <MinScaleDenominator>15001</MinScaleDenominator>
+          <Name>Motorway Merge Junction - 1:10,000 to 1:25,000</Name>
+          <ogc:Filter>
+            <ogc:PropertyIsGreaterThanOrEqualTo>
+                  <ogc:Function name="strLength">
+                    <ogc:PropertyName>junctionnumber</ogc:PropertyName>
+                  </ogc:Function>
+                  <ogc:Literal>10</ogc:Literal>
+            </ogc:PropertyIsGreaterThanOrEqualTo>
+          </ogc:Filter>
+          <MinScaleDenominator>10000</MinScaleDenominator>
           <MaxScaleDenominator>25000</MaxScaleDenominator>
-          <TextSymbolizer uom="http://www.opengeospatial.org/se/units/metre">
+          <TextSymbolizer>
             <Label>
-              <ogc:PropertyName>junctionnumber</ogc:PropertyName>
+            <ogc:Function name="strConcat">
+              <ogc:Function name="strSubString">
+                <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>junctionnumber</ogc:PropertyName>
+                  <ogc:Literal>0</ogc:Literal>
+                  <ogc:Literal>8</ogc:Literal>
+                </ogc:Function>
+                <ogc:Add>
+                  <ogc:Function name="strIndexOf">
+                    <ogc:Function name="strSubstring">
+                    <ogc:PropertyName>junctionnumber</ogc:PropertyName>
+                    <ogc:Literal>0</ogc:Literal>
+                    <ogc:Literal>8</ogc:Literal>
+                  </ogc:Function>
+                    <ogc:Literal>J</ogc:Literal>
+                  </ogc:Function>
+                  <ogc:Literal>1</ogc:Literal>
+                </ogc:Add>
+                <ogc:Function name="strIndexOf">
+                  <ogc:Function name="strSubstring">
+                  <ogc:PropertyName>junctionnumber</ogc:PropertyName>
+                  <ogc:Literal>0</ogc:Literal>
+                  <ogc:Literal>8</ogc:Literal>
+                </ogc:Function>
+                  <ogc:Literal>/</ogc:Literal>
+                </ogc:Function>
+              </ogc:Function>
+              <ogc:Function name="strReplace">
+                <ogc:PropertyName>junctionnumber</ogc:PropertyName>
+                <ogc:Literal>M.*J</ogc:Literal>
+                <ogc:Literal> &amp; </ogc:Literal>
+                <ogc:Literal>true</ogc:Literal>
+              </ogc:Function>
+            </ogc:Function>
             </Label>
             <Font>
               <CssParameter name="font-family">Arial</CssParameter>
-              <CssParameter name="font-size">45.83</CssParameter>
+              <CssParameter name="font-size">13</CssParameter>
               <CssParameter name="font-weight">bold</CssParameter>
             </Font>
             <LabelPlacement>
@@ -104,34 +138,34 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
                   <AnchorPointY>0.5</AnchorPointY>
                 </AnchorPoint>
                 <Displacement>
-                  <DisplacementX>0</DisplacementX>
-                  <DisplacementY>1</DisplacementY>
+                  <DisplacementX>18</DisplacementX>
+                  <DisplacementY>35</DisplacementY>
                 </Displacement>
               </PointPlacement>
             </LabelPlacement>
             <Fill>
-              <CssParameter name="fill">#36B1C9</CssParameter>
+              <CssParameter name="fill">#FFFFFF</CssParameter>
             </Fill>
             <Graphic>
                 <Mark>
-                 <WellKnownName>circle</WellKnownName>
+                 <WellKnownName>square</WellKnownName>
                  <Fill>
-                  <CssParameter name="fill">#FFFFFF</CssParameter>
-                 </Fill>      
+                  <CssParameter name="fill">#36B1C9</CssParameter>
+                 </Fill>
                  <Stroke>
                   <CssParameter name="stroke">#FFFFFF</CssParameter>
-                  <CssParameter name="stroke-width">4</CssParameter>
+                  <CssParameter name="stroke-width">2</CssParameter>
                   <CssParameter name="stroke-linejoin">round</CssParameter>
                   <CssParameter name="stroke-linecap">round</CssParameter>
-                 </Stroke>                  
-                </Mark>                  
-              <Size>43.65</Size>
+                 </Stroke>
+                </Mark>
+              <Size>13</Size>
             </Graphic>
             <VendorOption name="graphic-resize">stretch</VendorOption>
-            <VendorOption name="graphic-margin">13</VendorOption>
+            <VendorOption name="graphic-margin">4</VendorOption>
           </TextSymbolizer>
         </Rule>
       </FeatureTypeStyle>
-    </UserStyle>
-  </NamedLayer>
-</StyledLayerDescriptor>
+         </UserStyle>
+       </NamedLayer>
+      </StyledLayerDescriptor>
