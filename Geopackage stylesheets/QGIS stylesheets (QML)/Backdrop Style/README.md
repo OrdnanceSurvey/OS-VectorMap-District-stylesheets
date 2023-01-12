@@ -12,19 +12,23 @@ These are **QML** files for OS VectorMap District in **Geopackage** format for u
 
 *Your machine may require a restart to recognise this new font*
 
-**3.**  Open a new, blank map in QGIS
+**3.** Copy the folder ‘ordnance_survey_vmd’ into your QGIS SVG directory (a typical Windows file path is C:\Program Files\QGIS xxxx\apps\qgis\svg, where xxxx represents whatever version of QGIS you are running).
 
-**4.**  Navigate to Project > Properties... in the top left of the window, and under the 'General' tab change the Background colour to R 250 B 249 G 247
+*Your machine may require a restart for QGIS to recognise the new font and SVGs*
 
-**5.**  Click on the 'Add Vector Layer' button and navigate to the stylesheets folder and the directory that mathces your dataformat, stylesheets format and style preference
+**4.**  Open a new, blank map in QGIS
 
-**6.**  Select each of the required layers and click 'OK'
+**5.**  Navigate to Project > Properties... in the top left of the window, and under the 'General' tab change the Background colour to R 250 B 249 G 247
 
-**7.**  Double-click on a layer to access the 'Layer Properties' window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the QML file that corresponds to that layer > click 'Open' > click 'OK'
+**6.**  Click on the 'Add Vector Layer' button and navigate to the stylesheets folder and the directory that mathces your dataformat, stylesheets format and style preference
 
-*Repeat step 7 for all layers*
+**7.**  Select each of the required layers and click 'OK'
 
-**8.**  Although every feature is styled, for use as a contextual map our recommended layer order is shown below. Layers can be dragged to reorder accordingly
+**8.**  Double-click on a layer to access the 'Layer Properties' window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the QML file that corresponds to that layer > click 'Open' > click 'OK'
+
+*Repeat step 8 for all layers*
+
+**9.**  Although every feature is styled, for use as a contextual map our recommended layer order is shown below. Layers can be dragged to reorder accordingly
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/Backdrop%20Style/images/VMD_BD_layer_order.PNG "Recommended layer order for OS VectorMap District")
 
