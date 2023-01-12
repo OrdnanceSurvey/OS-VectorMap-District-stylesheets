@@ -12,7 +12,7 @@ These are QML files for OS VectorMap District in GML format for use in QGIS.
 
 *Your machine may require a restart to recognise this new font*
 
-**3.** Copy the folder ‘ordnance_survey_vmd’ into your QGIS SVG directory (a typical Windows file path is C:\Program Files\QGIS xxxx\apps\qgis\svg, where xxxx represents whatever version of QGIS you are running).
+**3.** Copy the folder ‘ordnance_survey’ into your QGIS SVG directory (a typical Windows file path is C:\Program Files\QGIS xxxx\apps\qgis\svg, where xxxx represents whatever version of QGIS you are running).
 
 *Your machine may require a restart for QGIS to recognise the new font and SVGs*
 
