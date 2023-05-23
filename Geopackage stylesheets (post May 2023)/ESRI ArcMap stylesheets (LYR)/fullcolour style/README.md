@@ -24,7 +24,7 @@ These are **LYR** files for OS VectorMap District in **Geopackage** format for u
 
 **8.**  Your Table of Contents should now look like this. This is the recommended layer order: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/d266b9e3d40a8301cd74204f33f3aa4225319b16/Geopackage%20stylesheets/ESRI%20stylesheets%20(LYR)/Full%20colour%20style/images/VMD_layerorder_fc.PNG "Recommended layer order for OS VectorMap District")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/479e4456446f8b632229cc5e477407af38189717/Geopackage%20stylesheets%20(post%20May%202023)/ESRI%20ArcMap%20stylesheets%20(LYR)/fullcolour%20style/images/VMD_FC_LayerOrder_ArcMap.PNG "Recommended layer order for OS VectorMap District")
 
 **9.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap District data > select the data that matches the layer, for example for HeritageSite select XX_HeritageSite.shp (XX being the 100km tile name) > select ‘Add’
 
