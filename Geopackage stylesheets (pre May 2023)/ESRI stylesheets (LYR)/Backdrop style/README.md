@@ -42,8 +42,6 @@ Our Layer Files are compatible with versions of ESRI ArcGIS back to version 9.3 
 
 ## Additional information
 
-Spatial indexing of the data in ArcGIS will significantly improve performance (draw speed)
-
 ‘Hidden’ features can be activated through the relevant checkbox or by unchecking ‘Color is Null’ in the Color Selector dialogue
 
 [More information about OS VectorMap District](http://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html)
