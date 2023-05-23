@@ -24,7 +24,7 @@ These are **lyrx** files for OS VectorMap District in **Geopackage** format for 
 
 **8.**  Your Table of Contents should now look like this. This is the recommended layer order:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/4a50d2922d3b16e8eb17b11d9c7ddb00f42c6996/Geopackage%20stylesheets/ESRI%20ArcPro%20stylesheets%20(LYRX)/Backdrop%20style/images/VMD_layerorder.PNG "Recommended layer order for OS VectorMap District")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/1e29492b6d3da57ac23f349b4a993085fe9f8b30/Geopackage%20stylesheets%20(post%20May%202023)/ESRI%20ArcPro%20stylesheets%20(LYRX)/Backdrop%20style/images/VMD_layerorder.PNG "Recommended layer order for OS VectorMap District")
 
 **9.**  To fix the data links, click on the exclamation marks. A file explorer window will open. Navigate to where your OS VectorMap District data is stored and select the data that matches the layer. For example, Road (level 1 fill) = Roads > select ‘Add’. Alternatively, right click on the layer and go to Properties > On the Source tab click 'Set Data Source'. Navigate to where your OS VectorMap District data is stored and select the data that matches the layer. For example, Road (level 1 fill) = Roads > select ‘Add’.
 
