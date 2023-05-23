@@ -2,7 +2,7 @@
 
 These are **QML** files for OS VectorMap District in **Geopackage** format for use in **QGIS**.
 
-*They have been designed to work with the data as it is supplied.*
+*They have been designed to work with the data as it is supplied, downloaded from the OS Data Hub **prior to May 2023**.*
 
 ## Quick start guide
 
