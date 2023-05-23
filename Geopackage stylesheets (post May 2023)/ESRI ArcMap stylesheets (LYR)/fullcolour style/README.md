@@ -26,7 +26,7 @@ These are **LYR** files for OS VectorMap District in **Geopackage** format for u
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/479e4456446f8b632229cc5e477407af38189717/Geopackage%20stylesheets%20(post%20May%202023)/ESRI%20ArcMap%20stylesheets%20(LYR)/fullcolour%20style/images/VMD_FC_LayerOrder_ArcMap.PNG "Recommended layer order for OS VectorMap District")
 
-**9.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap District geopackage data > select the data that matches the layer, for example for FunctionalSite select functional_site.shp > select ‘Add’
+**9.**  Double-click on a layer to access the ‘Layer Properties’ window > select the ‘Source tab’ > click on ‘Set Data Source…’ > navigate to your OS VectorMap District geopackage data > select the data that matches the layer, for example for FunctionalSite select main.functional_site > select ‘Add’
 
 Repeat step 9 for all layers.
 
