@@ -2,7 +2,7 @@
 
 These are **LYR** files for OS VectorMap District in **Geopackage** format for use in **ESRI ArcGIS**.
 
-*They have been designed to work with the data as it is supplied.*
+*They have been designed to work with the data as it is supplied,downloaded from the OS Data Hub **prior to May 2023***
 
 ## Quick start guide
 
