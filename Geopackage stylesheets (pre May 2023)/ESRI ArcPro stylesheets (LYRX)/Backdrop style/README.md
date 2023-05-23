@@ -2,7 +2,7 @@
 
 These are **lyrx** files for OS VectorMap District in **Geopackage** format for use in **ESRI ArcPro**.
 
-*They have been designed to work with the data as it is supplied.*
+*They have been designed to work with the data as it is supplied, downloaded from the OS datahub **prior to May 2023***
 
 ## Quick start guide
 
