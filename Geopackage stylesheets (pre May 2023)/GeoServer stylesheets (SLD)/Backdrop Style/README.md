@@ -4,6 +4,8 @@ These are **SLD** files for OS VectorMap District in **Geopackage** format for u
 
 *They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
 
+They have been designed to work with geopackage data downloaded from the OS data hub **prior to May 2023**
+
 ## Quick start guide
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/archive/master.zip) the contents of this repository
