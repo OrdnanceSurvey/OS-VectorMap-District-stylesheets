@@ -34,7 +34,7 @@ We recommend viewing the map between **1:10,000** and **1:25,000** for maximum l
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/Geopackage%20stylesheets/ESRI%20stylesheets%20(LYR)/Full%20colour%20style/images/VMD_FC_screenshot.PNG "Screenshot of OS VectorMap District at 1:17,500")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/7c5c6ac7621fd78c37053ae9ce40bc0407783563/Geopackage%20stylesheets%20(post%20May%202023)/ESRI%20ArcMap%20stylesheets%20(LYR)/fullcolour%20style/images/VMD_FC_ArcMap.PNG "Screenshot of OS VectorMap District")
 
 ## Compatibility notes
 
