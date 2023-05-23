@@ -36,7 +36,7 @@ We recommend viewing the map between **1:10,000** and **1:25,000** for maximum l
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/raw/master/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/Full%20Colour%20Style/images/VMD_FC_screenshot.PNG "Screenshot of OS VectorMap District at 1:15,000")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/01afd8d3b0653fd79274813f6e36ffa7abe7aa3d/Geopackage%20stylesheets%20(post%20May%202023)/QGIS%20stylesheets%20(QML)/Fullcolour%20Style/images/VMD_FC_QGIS.PNG "Screenshot of OS VectorMap District")
 
 ## Compatibility Notes
 
