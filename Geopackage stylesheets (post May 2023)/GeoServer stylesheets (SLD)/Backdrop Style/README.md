@@ -20,7 +20,7 @@ They have been designed to work with the geopackage data downloaded from the OS 
 
 **6.**  To create OS VectorMap District in GeoServer you will need to create a Layer Group. If using the GUI then navigate to Layer Groups > Add new layer group > Add Layer and choose each layer in turn to create the following layer order:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/1682e720c8e52c6949e62d7e7f7cb04fdbea2b65/Geopackage%20stylesheets%20(pre%20May%202023)/GeoServer%20stylesheets%20(SLD)/Backdrop%20Style/images/VMD_layer_order2.png "Recommended layer order for OS VectorMap District")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/76375d36e2cea526d486758a0d644a40ac57cd23/Geopackage%20stylesheets%20(post%20May%202023)/GeoServer%20stylesheets%20(SLD)/Backdrop%20Style/images/VMD_layer_order2.png "Recommended layer order for OS VectorMap District")
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 Although every feature is styled, for use as a general contextual map we have commented some of them out by default.
