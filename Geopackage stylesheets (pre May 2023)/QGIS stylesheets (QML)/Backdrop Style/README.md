@@ -30,7 +30,7 @@ These are **QML** files for OS VectorMap District in **Geopackage** format for u
 
 **9.**  Although every feature is styled, for use as a contextual map our recommended layer order is shown below. Layers can be dragged to reorder accordingly
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/1207c8c6af512e44092104bcf65abc1bd166cd31/Geopackage%20stylesheets/QGIS%20stylesheets%20(QML)/Backdrop%20Style/images/VMD_layerorder.PNG "Recommended layer order for OS VectorMap District")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/e7c55007cb572644bf8ea7a0de8eefb59a56a497/Geopackage%20stylesheets%20(pre%20May%202023)/QGIS%20stylesheets%20(QML)/Backdrop%20Style/images/VMD_layerorder.PNG "Recommended layer order for OS VectorMap District")
 
 We recommend viewing the map between **1:10,000** and **1:25,000** for maximum legibility
 
