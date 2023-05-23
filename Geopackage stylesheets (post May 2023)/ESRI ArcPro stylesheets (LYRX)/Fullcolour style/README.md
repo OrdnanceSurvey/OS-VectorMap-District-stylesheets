@@ -36,7 +36,7 @@ We recommend viewing the map between 1:10,000 and 1:25,000 for maximum legibilit
 
 Your map should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/6abd53f8ed976c31cbe09d67b2fd8349200acfdc/Geopackage%20stylesheets/ESRI%20ArcPro%20stylesheets%20(LYRX)/Fullcolour%20style/images/VMD_fullcolour.PNG "Screenshot of OS VectorMap District")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-VectorMap-District-stylesheets/blob/93d29ed82300e9802872132ea31ae975c1478522/Geopackage%20stylesheets%20(post%20May%202023)/ESRI%20ArcPro%20stylesheets%20(LYRX)/Fullcolour%20style/images/VMD_fullcolour.PNG "Screenshot of OS VectorMap District")
 
 ## Additional information
 
